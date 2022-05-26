@@ -6,6 +6,5 @@ const PercentSavingsTwo = () => {
 
     return (percentTwo)
 }
-export const percentOne = 38
 export const percentTwo = 63
 export default PercentSavingsTwo

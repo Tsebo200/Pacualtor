@@ -10,6 +10,10 @@ import PercentSavings from "./PercentSavings";
 import percentOne from './PercentSavings';
 import percentTwo from './PercentSavingsTwo';
 import PercentSavingsTwo from './percentSavingsTwo';
+import FinalSavingOne from './FinalSavingOne';
+import personOneSavings from './FinalSavingOne';
+import FinalSavingTwo from './FinalSavingTwo';
+import personTwoSavings from './FinalSavingTwo';
 
 
 describe("Test Adding Total Income in the household", () => {
@@ -45,5 +49,17 @@ describe("Testing The percentage person One owns from total salary", () => {
 describe("Testing The percentage person Two owns from total salary", () => {
     test("Run test for percentTwo...", () => {
         expect(PercentSavingsTwo(percentTwo)).toBe(63);
+    });
+});
+
+describe("Testing The percentage person One Saves", () => {
+    test("Run test for personOne Savings...", () => {
+        expect(FinalSavingOne(personOneSavings)).toBe(11422);
+    });
+});
+
+describe("Testing The percentage person Two Saves", () => {
+    test("Run test for personTwo Savings...", () => {
+        expect(FinalSavingTwo(personTwoSavings)).toBe(18937);
     });
 });
