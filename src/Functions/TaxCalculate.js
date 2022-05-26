@@ -1,6 +1,4 @@
 import {personOneIncome, personTwoIncome} from './Addition';
-import { useState } from 'react';
-
 const TaxCalc = () => {
 
     

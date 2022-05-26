@@ -7,6 +7,7 @@ const AddingIncome = () => {
 }
 export const personOneIncome = 60000;
 export const personTwoIncome = 100000;
+export const totalIncome = 160000;
 export default AddingIncome
 
 

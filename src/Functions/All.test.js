@@ -6,6 +6,8 @@ import Expenses from "./Subtraction";
 import monthlyExpense from './Subtraction';
 import Result from './Equals';
 import totalSavings from './Equals';
+import PercentSavings from "./PercentSavings";
+import percentOne from './PercentSavings';
 
 
 describe("Test Adding Total Income in the household", () => {
@@ -29,5 +31,11 @@ describe("Testing Expenses for the household", () => {
 describe("Testing The Final Result for household", () => {
     test("Run test for result....", () => {
         expect(Result(totalSavings)).toBe(50148);
+    });
+});
+
+describe("Testing The percentage person One owns from total salary", () => {
+    test("Run test for percentOne...", () => {
+        expect(PercentSavings(percentOne)).toBe(38);
     });
 });
