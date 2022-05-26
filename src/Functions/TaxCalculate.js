@@ -55,7 +55,7 @@ const TaxCalc = () => {
         taxBracketOne = taxBracketOne + 7;
     }
 
-    console.log(yearTotalOne);  
+    
 
     // PersonTwo
     if(yearTotalTwo < 226000){

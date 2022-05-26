@@ -8,3 +8,5 @@ const AddingIncome = () => {
 export const personOneIncome = 60000;
 export const personTwoIncome = 100000;
 export default AddingIncome
+
+
