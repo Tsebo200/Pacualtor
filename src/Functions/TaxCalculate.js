@@ -1,4 +1,4 @@
-import {Addition, personOneIncome, personTwoIncome} from './Addition';
+import {personOneIncome, personTwoIncome} from './Addition';
 import { useState } from 'react';
 
 const TaxCalc = () => {
@@ -103,4 +103,5 @@ const TaxCalc = () => {
     let totalIncomeAfterTax = Math.round((personOneIncome - yearTotalOne) + (personTwoIncome - yearTotalTwo));
     return totalIncomeAfterTax
 }
+export const totalIncomeAfterTax = 75148;
 export default TaxCalc

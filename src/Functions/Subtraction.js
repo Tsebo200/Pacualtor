@@ -9,4 +9,5 @@ const Expenses = () => {
     let monthlyExpense = rent + waterAndElectric + fuel + groceries + internetSubs;
     return monthlyExpense
 }
+export const monthlyExpense = 25000;
 export default Expenses
