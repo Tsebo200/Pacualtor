@@ -8,6 +8,8 @@ import Result from './Equals';
 import totalSavings from './Equals';
 import PercentSavings from "./PercentSavings";
 import percentOne from './PercentSavings';
+import percentTwo from './PercentSavingsTwo';
+import PercentSavingsTwo from './percentSavingsTwo';
 
 
 describe("Test Adding Total Income in the household", () => {
@@ -37,5 +39,11 @@ describe("Testing The Final Result for household", () => {
 describe("Testing The percentage person One owns from total salary", () => {
     test("Run test for percentOne...", () => {
         expect(PercentSavings(percentOne)).toBe(38);
+    });
+});
+
+describe("Testing The percentage person Two owns from total salary", () => {
+    test("Run test for percentTwo...", () => {
+        expect(PercentSavingsTwo(percentTwo)).toBe(63);
     });
 });

@@ -1,13 +1,11 @@
-import { personOneIncome } from "./Addition";
 import { personTwoIncome } from "./Addition";
 import { totalIncome } from "./Addition";
 
-const PercentSavings = () => {
-    let percentOne = Math.round((personOneIncome/totalIncome) * 100);
+const PercentSavingsTwo = () => {
     let percentTwo = Math.round((personTwoIncome/totalIncome) * 100);
 
-    return (percentOne)
+    return (percentTwo)
 }
 export const percentOne = 38
 export const percentTwo = 63
-export default PercentSavings
+export default PercentSavingsTwo
