@@ -3,3 +3,67 @@ body {
   margin: 0;
 }
 
+.main-container{
+  width: 1440px;
+  height: 100vh;
+  background-color: #F1F0F6;
+}
+
+.side-bar-container{
+  width: 216px;
+  height: 791px;
+  margin-left: 20px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 124px;
+  float: left;
+}
+
+.logo-box{
+  width: 92px;
+  height: 96px;
+  margin-top: 24px;
+  margin-left: 62px;
+  background-image: url("../src/assets/Logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+
+.net-income-container{
+  width: 358px;
+  height: 196px;
+  margin-left: 90px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 41px;
+  float: left;
+}
+
+.income-after-tax-container{
+  width: 645px;
+  height: 200px;
+  margin-left: 60px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 41px;
+  float: left;
+}
+
+.monthly-expense-container{
+  width: 657px;
+  height: 400px;
+  margin-left: 90px;
+  margin-top: 44px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 41px;
+  float: left;
+}
+
+.results-container{
+  width: 347px;
+  height: 399px;
+  margin-top: 41px;
+  margin-left: 60px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 41px;
+  float: left;
+}
