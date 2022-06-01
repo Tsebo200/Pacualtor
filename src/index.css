@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
 body {
   padding: 0;
   margin: 0;
@@ -30,10 +31,126 @@ body {
   float: left;
 }
 
+.P-text{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 11px;
+  margin-left: 63px;
+  background: none;
+  color: #ECCC68;
+  float: left;
+}
+
+.a-text-one{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 11px;
+  background: none;
+  color: #FEA502;
+  float: left;
+}
+
+.c-text{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 11px;
+  background: none;
+  color: #ECCC68;
+  float: left;
+}
+
+.u-text{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 11px;
+  background: none;
+  color: #FEA502;
+  float: left;
+}
+
+
+.l-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 11px;
+  background: none;
+  color: #ECCC68;
+  float: left;
+}
+
+
+.a-text-two{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 11px;
+  background: none;
+  color: #FEA502;
+  float: left;
+}
+
+
+.t-text{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 11px;
+  background: none;
+  color: #ECCC68;
+  float: left;
+}
+
+.o-text{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 11px;
+  background: none;
+  color: #FEA502;
+  float: left;
+}
+
+.r-text{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 11px;
+  background: none;
+  color: #ECCC68;
+  float: left;
+}
+
+.slogan{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7px;
+  margin-top: 3px;
+  margin-left: 55px;
+  float: left;
+}
+
+.your-text{
+  color: #FEA502;
+  background: none;
+}
+
+.personal-text{
+  color: #ECCC68;
+  background: none;
+}
+
+
 .net-income-container{
   width: 358px;
   height: 196px;
   margin-left: 90px;
+  margin-top: 37px;
   background: rgba(196, 196, 196, 0.3);
   border-radius: 41px;
   float: left;
@@ -43,6 +160,7 @@ body {
   width: 645px;
   height: 200px;
   margin-left: 60px;
+  margin-top: 37px;
   background: rgba(196, 196, 196, 0.3);
   border-radius: 41px;
   float: left;
