@@ -2,6 +2,7 @@ import React from "react";
 
 const SideProfile = () => {
 
+    
     return(
         <>
         <div className="main-container">
@@ -20,8 +21,14 @@ const SideProfile = () => {
         <form><input className="name-input-two" type={'text'}></input></form>
         <p className="input-label-four">Please Enter Your Earnings</p>
         <form><input className="salary-input-two" type={'number'}></input></form>
+        <div className="begin-btn" type={'submit'}><p className="begin-text">Let's Begin</p></div>
         </div>
-        <div className="net-income-container"></div>
+        {/* End of Side-Bar Container */}
+        
+        <div className="net-income-container">
+
+        </div>
+        {/* End of Net Income Container */}
         <div className="income-after-tax-container"></div>
         <div className="monthly-expense-container"></div>
         <div className="results-container"></div>
