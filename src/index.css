@@ -314,16 +314,92 @@ body {
   float: left;
 }
 
+/* Net Income Container */
 .net-income-container{
   width: 358px;
   height: 196px;
   margin-left: 90px;
   margin-top: 37px;
-  background: rgba(196, 196, 196, 0.3);
+  background: #F0F0F8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -5px -5px 10px #FAFBFF;
   border-radius: 41px;
   float: left;
 }
 
+.net-income-text{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-left: 106px;
+  float: left;
+}
+
+.net-income-output-container{
+  width: 269px;
+  height: 45px;
+  background: #B5BFC6;
+  border-radius: 0px 9px 9px 0px;
+  margin-top: -5px;
+  margin-left: 45px;
+  float: left;
+}
+
+.rand-container{
+  width: 54px;
+  height: 45px;
+  background: #6E7F8D;
+  float: left;
+}
+
+.R-text{
+  font-family: 'Inter';
+  font-weight: 400;
+  margin-top: 6px;
+  margin-left: 18px;
+  font-size: 28px;
+  color: #ECCC68;
+  float: left;
+}
+
+.net-income-input-box{
+  width: 215px;
+height: 45px;
+border-radius: 0px 9px 9px 0px;
+color: #FFFFFF;
+float: left;
+}
+
+.name-one-net-inc{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #010B20;
+  margin-top: 37px;
+  margin-left: 44px;
+  float: left;
+}
+
+.line-breaker{
+  width: 58px;
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+  margin-top: 45px;
+  margin-left: 30px;
+  float: left;
+}
+
+.name-two-net-inc{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #010B20;
+  margin-top: 37px;
+  margin-left: 24px;
+  float: left;
+}
+
+/* Income After Tax Container */
 .income-after-tax-container{
   width: 645px;
   height: 200px;
