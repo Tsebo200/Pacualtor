@@ -129,20 +129,90 @@ body {
 .slogan{
   font-family: 'Inter';
   font-weight: 400;
-  font-size: 7px;
+  font-size: 8px;
   margin-top: 3px;
-  margin-left: 55px;
+  margin-left: 47px;
   float: left;
 }
 
 .your-text{
   color: #FEA502;
   background: none;
+  margin-left: 2.5px;
+  float: left;
 }
 
 .personal-text{
   color: #ECCC68;
   background: none;
+  margin-left: 2.5px;
+  float: left;
+}
+
+.budget-text{
+  color: #FEA502;
+  background: none;
+  margin-left: 2.5px;
+  float: left;
+}
+
+.paculator-text{
+  color: #ECCC68;
+  background: none;
+  margin-left: 2.5px;
+  float: left;
+}
+
+.profile-one-img{
+  width: 76px;
+  height: 76px;
+  margin-top: 48px;
+  margin-left: 69px;
+  border-radius: 360px;
+  background: #C4C4C4;
+  float: left;
+}
+
+.input-label-one{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 9px;
+  margin-left: 56px;
+  margin-top: 12px;
+  float: left;
+}
+
+.name-input-one{
+  width: 143px;
+  height: 26px;
+  margin-top: -4px;
+  margin-left: 35px;
+  background: #DFDFDF;
+  border: 1px solid #000000;
+  padding-left: 5%;
+  border-radius: 9px;
+  float: left;
+}
+
+.input-label-two{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 9px;
+  margin-left: 50px;
+  margin-top: 12px;
+  float: left;
+}
+
+.salary-input-one{
+  width: 143px;
+  height: 26px;
+  margin-top: -4px;
+  margin-left: 35px;
+  background: #DFDFDF;
+  border: 1px solid #000000;
+  padding-left: 5%;
+  border-radius: 9px;
+  float: left;
 }
 
 

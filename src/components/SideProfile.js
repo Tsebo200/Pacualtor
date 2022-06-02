@@ -9,6 +9,17 @@ const SideProfile = () => {
         <div className="logo-box"></div>
         <p className="paculate-text"><mark className="P-text">P</mark><mark className="a-text-one">a</mark><mark className="c-text">c</mark><mark className="u-text">u</mark><mark className="l-text">l</mark><mark className="a-text-two">a</mark><mark className="t-text">t</mark><mark className="o-text">o</mark><mark className="r-text">r</mark></p>
         <p className="slogan"><mark className="your-text">Your</mark><mark className="personal-text">Personal</mark><mark className="budget-text">Budget</mark><mark className="paculator-text">Paculator</mark></p>
+        <div className="profile-one-img"></div>
+        <p className="input-label-one">Please Enter Your Name</p>
+        <form><input className="name-input-one" type={'text'}></input></form>
+        <p className="input-label-two">Please Enter Your Earnings</p>
+        <form><input className="salary-input-one" type={'number'}></input></form>
+
+        <div className="profile-two-img"></div>
+        <p className="input-label-three">Please Enter Your Name</p>
+        <form><input className="name-input-two" type={'text'}></input></form>
+        <p className="input-label-four">Please Enter Your Earnings</p>
+        <form><input className="salary-input-two" type={'number'}></input></form>
         </div>
         <div className="net-income-container"></div>
         <div className="income-after-tax-container"></div>
