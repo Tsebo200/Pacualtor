@@ -1,6 +1,6 @@
 import React from "react";
 
-const SideProfile = () => {
+const Dashboard= () => {
 
     
     return(
@@ -44,4 +44,4 @@ const SideProfile = () => {
         </> 
     )
 }
-export default SideProfile
+export default Dashboard
