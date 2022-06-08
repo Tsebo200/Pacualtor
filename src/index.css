@@ -402,7 +402,7 @@ body {
 /* Income After Tax Container */
 .income-after-tax-container{
   width: 645px;
-  height: 200px;
+  height: 196px;
   margin-left: 60px;
   margin-top: 37px;
   background: rgba(196, 196, 196, 0.3);
@@ -419,13 +419,20 @@ body {
   float: left;
 }
 
-.income-after-tax-output-container{
+/* Income After Tax LEFT Container */
+.income-after-tax-left-container{
+  width: 238px;
+  height: 140px;
+  margin-top: -10px;
+  margin-left: 47px;
+  float: left;
+}
+
+.income-after-tax-output-container-one{
   width: 238px;
   height: 45px;
   background-color: transparent;
   border-radius: 0px 9px 9px 0px;
-  margin-left: 47px;
-  margin-top: 14px;
   float: left;
 }
 
@@ -447,11 +454,77 @@ body {
   float: left;
 }
 
-.income-after-tax-output-box{
+.income-after-tax-output-box-one{
   width: 189px;
   height: 45px;
   background: #B5BFC6;
   border-radius: 0px 9px 9px 0px;
+  float: left;
+}
+
+.amount-deducted-text{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 11px;
+  margin-top: 16px;
+  margin-left: 74px;
+  float: left;
+}
+
+/* Income After Tax Container Two */
+.income-after-tax-output-container-two{
+  width: 238px;
+  height: 45px;
+  margin-top: 33px;
+  background-color: transparent;
+  border-radius: 0px 9px 9px 0px;
+  float: left;
+}
+
+.income-after-tax-output-box-two{
+  width: 189px;
+  height: 45px;
+  background: #B5BFC6;
+  border-radius: 0px 9px 9px 0px;
+  float: left;
+}
+
+.rand-container-three{
+  width: 49px;
+  height: 45px;
+  background: #6E7F8D;
+  float: left;
+}
+
+.R-text-three{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #FEA502;
+  margin-top: 5.5px;
+  margin-left: 15.5px;
+  float: left;
+}
+
+.damn-thieves-text{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 2px;
+  margin-left: 40px;
+  letter-spacing: 0.1em;
+  color: #FEA502;
+  float: left;
+}
+
+/* Income After Tax RIGHT Container */
+.income-after-tax-right-container{
+  width: 224px;
+  height: 71px;
+  margin-top: 5px;
+  margin-left: 67px;
+  background: rgba(196, 196, 196, 0.9);
   float: left;
 }
 

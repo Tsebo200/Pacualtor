@@ -36,15 +36,28 @@ const Dashboard= () => {
             <p className="name-two-net-inc">Name Two</p>
         </div>
         {/* End of Net Income Container */}
-
+        
         <div className="income-after-tax-container">
             <p className="income-after-tax-text">Income After Tax</p>
-            <div className="income-after-tax-output-container">
-                <div className="rand-container-two"><p className="R-text-two">R</p></div>
-                <div className="income-after-tax-output-box"></div>
+            <div className="income-after-tax-left-container">
+                <div className="income-after-tax-output-container-one">
+                    <div className="rand-container-two"><p className="R-text-two">R</p></div>
+                    <div className="income-after-tax-output-box-one"></div>
+                    <p className="amount-deducted-text">Amount Deducted</p>
+                </div>
+                <div className="income-after-tax-output-container-two">
+                    <div className="rand-container-three"><p className="R-text-three">R</p></div>
+                    <div className="income-after-tax-output-box-two"></div>
+                    <p className="damn-thieves-text">DAMN THOSE THIEVES!</p>
+                </div>
             </div>
+            <div className="income-after-tax-right-container">
+            <div className=""></div>
+            </div>
+             {/* End of Income After Tax Container */}
         </div>
-        {/* End of Income After Tax Container */}
+       
+       
 
         <div className="monthly-expense-container">
         </div>
