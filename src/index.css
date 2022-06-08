@@ -405,7 +405,8 @@ body {
   height: 196px;
   margin-left: 60px;
   margin-top: 37px;
-  background: rgba(196, 196, 196, 0.3);
+  background: #F0F0F8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -5px -5px 10px #FAFBFF;
   border-radius: 41px;
   float: left;
 }
@@ -524,7 +525,65 @@ body {
   height: 71px;
   margin-top: 5px;
   margin-left: 67px;
-  background: rgba(196, 196, 196, 0.9);
+  background: transparent;
+  float: left;
+}
+
+.income-after-tax-user-one-box{
+  width: 65px;
+  height: 70px;
+  background: transparent;
+  float: left;
+}
+
+.income-after-tax-profile-one{
+  width: 46px;
+  height: 46px;
+  margin-left: 9px;
+  background-image: url('../src/assets/profile1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+
+.income-after-tax-profile-one-name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  margin-top: 11px;
+  margin-left: 5px;
+  float: left;
+}
+
+/* Income After Tax User Two */
+.income-after-tax-user-two-box{
+  width: 65px;
+  height: 70px;
+  margin-left: 93px;
+  background: transparent;
+  float: left;
+}
+
+.income-after-tax-profile-two{
+  width: 46px;
+  height: 46px;
+  margin-left: 9px;
+  background-image: url('../src/assets/profile2.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+
+.income-after-tax-profile-two-name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  margin-top: 11px;
+  margin-left: 5px;
   float: left;
 }
 

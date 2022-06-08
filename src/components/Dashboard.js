@@ -52,7 +52,14 @@ const Dashboard= () => {
                 </div>
             </div>
             <div className="income-after-tax-right-container">
-            <div className=""></div>
+                <div className="income-after-tax-user-one-box">
+                    <div className="income-after-tax-profile-one"></div>
+                    <p className='income-after-tax-profile-one-name'>Name One</p>
+                </div>
+                <div className="income-after-tax-user-two-box">
+                    <div className="income-after-tax-profile-two"></div>
+                    <p className='income-after-tax-profile-two-name'>Name Two</p>
+                </div>
             </div>
              {/* End of Income After Tax Container */}
         </div>
