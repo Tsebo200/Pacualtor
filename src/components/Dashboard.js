@@ -138,30 +138,42 @@ const Dashboard= () => {
 
                 <div className="monthly-expense-content-container-right">
                     <div className="monthly-expense-input-container-one">
-                    <div className="rand-container-four"><p className="R-text-four">R</p></div>
-                        <input type={'number'} className="monthly-expense-input-box-one"></input>
+                        <div className="rand-container-four"><p className="R-text-four">R</p></div>
+                            <input type={'number'} className="monthly-expense-input-box-one"></input>
                     </div>
+
                     <div className="monthly-expense-input-container-two">
-                    <div className="rand-container-five"><p className="R-text-five">R</p></div>
-                        <input type={'number'} className="monthly-expense-input-box-two"></input>
+                        <div className="rand-container-five"><p className="R-text-five">R</p></div>
+                            <input type={'number'} className="monthly-expense-input-box-two"></input>
                     </div>
+
                     <div className="monthly-expense-input-container-three">
-                    <div className="rand-container-six"><p className="R-text-six">R</p></div>
-                        <input type={'number'} className="monthly-expense-input-box-three"></input>
+                        <div className="rand-container-six"><p className="R-text-six">R</p></div>
+                            <input type={'number'} className="monthly-expense-input-box-three"></input>
                     </div>
+
                     <div className="monthly-expense-input-container-four">
-                    <div className="rand-container-seven"><p className="R-text-seven">R</p></div>
-                        <input type={'number'} className="monthly-expense-input-box-four"></input>
+                        <div className="rand-container-seven"><p className="R-text-seven">R</p></div>
+                            <input type={'number'} className="monthly-expense-input-box-four"></input>
                     </div>
+
                     <div className="monthly-expense-input-container-five">
-                    <div className="rand-container-eight"><p className="R-text-eight">R</p></div>
-                        <input type={'number'} className="monthly-expense-input-box-five"></input>
+                        <div className="rand-container-eight"><p className="R-text-eight">R</p></div>
+                            <input type={'number'} className="monthly-expense-input-box-five"></input>
                     </div>
+
                     <div className="monthly-expense-input-container-six">
-                    <div className="rand-container-nine"><p className="R-text-nine">R</p></div>
-                        <input type={'number'} className="monthly-expense-input-box-six"></input>
+                        <div className="rand-container-nine"><p className="R-text-nine">R</p></div>
+                            <input type={'number'} className="monthly-expense-input-box-six"></input>
                     </div>
                 </div>
+            </div>
+            <div className="total-monthly-expense-box">
+                    <div className="rand-container-ten"><p className="R-text-ten">R</p></div>
+                    <div className="monthly-expense-output-box"></div>
+            </div>
+            <div className="suffer-btn">
+                <p className="suffer-text">Make Me Suffer</p>
             </div>
         </div>
         <div className="results-container"></div>

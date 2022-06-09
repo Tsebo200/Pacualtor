@@ -193,6 +193,7 @@ body {
   height: 26px;
   margin-top: -4px;
   margin-left: 28px;
+  text-align: center;
   background: #B5BFC6;
   color: #ffffff;
   border: 1px solid #000000;
@@ -218,6 +219,7 @@ body {
   margin-left: 28px;
   background: #B5BFC6;
   color: #ffffff;
+  text-align: center;
   border: 1px solid #000000;
   padding-left: 5%;
   border-radius: 9px;
@@ -254,6 +256,7 @@ body {
   margin-left: 28px;
   background: #B5BFC6;
   color: #ffffff;
+  text-align: center;
   border: 1px solid #000000;
   padding-left: 5%;
   border-radius: 9px;
@@ -277,6 +280,7 @@ body {
   margin-left: 28px;
   color: #ffffff;
   background: #B5BFC6;
+  text-align: center;
   border: 1px solid #000000;
   padding-left: 5%;
   border-radius: 9px;
@@ -511,9 +515,9 @@ body {
 .damn-thieves-text{
   font-family: 'Inter';
   font-weight: 400;
-  font-size: 12px;
+  font-size: 8px;
   margin-top: 2px;
-  margin-left: 40px;
+  margin-left: 66px;
   letter-spacing: 0.1em;
   color: #FEA502;
   float: left;
@@ -611,9 +615,9 @@ body {
 .monthly-expense-content-container-left{
   width: 563px;
   height: 256px;
-  margin-top: 23px;
+  margin-top: 5px;
   margin-left: 29px;
-  background: rgba(233, 233, 239, 0.9);
+  background: transparent;
   float: left;
 }
 
@@ -678,8 +682,12 @@ select{
   width: 167px;
   height: 256px;
   margin-left: 25px;
-  background: rgba(216, 216, 225, 0.9);
+  background: transparent;
   float: left;
+}
+
+input{
+  padding-left: 10px;
 }
 
 .monthly-expense-input-container-one{
@@ -707,10 +715,11 @@ select{
 }
 
 .monthly-expense-input-box-one{
-  width: 133px;
+  width: 123px;
   height: 29px;
   border: none;
   color: white;
+  letter-spacing: 1px;
   background: #B5BFC6;
   border-radius: 0px 9px 9px 0px;
   float: left;
@@ -742,10 +751,11 @@ select{
 }
 
 .monthly-expense-input-box-two{
-  width: 133px;
+  width: 123px;
   height: 29px;
   border: none;
   color: white;
+  letter-spacing: 1px;
   background: #B5BFC6;
   border-radius: 0px 9px 9px 0px;
   float: left;
@@ -777,11 +787,12 @@ select{
 }
 
 .monthly-expense-input-box-three{
-  width: 133px;
+  width: 123px;
   height: 29px;
   border: none;
   color: white;
   background: #B5BFC6;
+  letter-spacing: 1px;
   border-radius: 0px 9px 9px 0px;
   float: left;
 }
@@ -812,10 +823,11 @@ select{
 }
 
 .monthly-expense-input-box-four{
-  width: 133px;
+  width: 123px;
   height: 29px;
   border: none;
   color: white;
+  letter-spacing: 1px;
   background: #B5BFC6;
   border-radius: 0px 9px 9px 0px;
   float: left;
@@ -847,10 +859,11 @@ select{
 }
 
 .monthly-expense-input-box-five{
-  width: 133px;
+  width: 123px;
   height: 29px;
   border: none;
   color: white;
+  letter-spacing: 1px;
   background: #B5BFC6;
   border-radius: 0px 9px 9px 0px;
   float: left;
@@ -882,12 +895,79 @@ select{
 }
 
 .monthly-expense-input-box-six{
-  width: 133px;
+  width: 123px;
   height: 29px;
   border: none;
   color: white;
   background: #B5BFC6;
+  letter-spacing: 1px;
   border-radius: 0px 9px 9px 0px;
+  float: left;
+}
+
+.total-monthly-expense-box{
+  width: 262px;
+  height: 45px;
+  margin-top: 14px;
+  margin-left: 33px;
+  background: transparent;
+  float: left;
+}
+
+.rand-container-ten{
+  width: 54px;
+height: 45px;
+background: #6E7F8D;
+float: left;
+}
+
+.R-text-ten{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 28px;
+  margin-top: 6px;
+  margin-left: 18px;
+  color: #FEA502;
+  float: left;
+}
+
+.monthly-expense-output-box{
+  width: 208px;
+  height: 45px;
+  background: #B5BFC6;
+  border-radius: 0px 9px 9px 0px;
+  float: left;
+}
+
+.suffer-btn{
+  width: 264px;
+  height: 34px;
+  margin-top: 20px;
+  margin-left: 33px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -5px -5px 10px #FAFBFF;
+  border-radius: 17px;
+  float: left;
+}
+
+.suffer-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 9px;
+  margin-left: 80px;
+  float: left;
+}
+
+.suffer-btn:hover{
+  width: 264px;
+  height: 34px;
+  margin-top: 20px;
+  margin-left: 33px;
+  background: #6E7F8D;
+  color: #F0F0F8;;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -5px -5px 10px #FAFBFF;
+  border-radius: 17px;
   float: left;
 }
 
