@@ -673,7 +673,7 @@ select{
   float: left;
 }
 
-
+/* Monthly Expense Right */
 .monthly-expense-content-container-right{
   width: 167px;
   height: 256px;
@@ -707,8 +707,185 @@ select{
 }
 
 .monthly-expense-input-box-one{
-  width: 137px;
+  width: 133px;
+  height: 29px;
+  border: none;
+  color: white;
+  background: #B5BFC6;
+  border-radius: 0px 9px 9px 0px;
+  float: left;
+}
+
+.monthly-expense-input-container-two{
+  width: 167px;
   height: 31px;
+  margin-top: 14px;
+  background: transparent;
+  float: left;
+}
+
+.rand-container-five{
+  width: 30px;
+  height: 31px;
+  background: #6E7F8D;
+  float: left;
+}
+
+.R-text-five{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 23px;
+  color: #ECCC68;
+  margin-left: 8px;
+  margin-top: 2px;
+  float: left;
+}
+
+.monthly-expense-input-box-two{
+  width: 133px;
+  height: 29px;
+  border: none;
+  color: white;
+  background: #B5BFC6;
+  border-radius: 0px 9px 9px 0px;
+  float: left;
+}
+
+.monthly-expense-input-container-three{
+  width: 167px;
+  height: 31px;
+  margin-top: 14px;
+  background: transparent;
+  float: left;
+}
+
+.rand-container-six{
+  width: 30px;
+  height: 31px;
+  background: #6E7F8D;
+  float: left;
+}
+
+.R-text-six{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 23px;
+  color: #ECCC68;
+  margin-left: 8px;
+  margin-top: 2px;
+  float: left;
+}
+
+.monthly-expense-input-box-three{
+  width: 133px;
+  height: 29px;
+  border: none;
+  color: white;
+  background: #B5BFC6;
+  border-radius: 0px 9px 9px 0px;
+  float: left;
+}
+
+.monthly-expense-input-container-four{
+  width: 167px;
+  height: 31px;
+  margin-top: 14px;
+  background: transparent;
+  float: left;
+}
+
+.rand-container-seven{
+  width: 30px;
+  height: 31px;
+  background: #6E7F8D;
+  float: left;
+}
+
+.R-text-seven{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 23px;
+  color: #ECCC68;
+  margin-left: 8px;
+  margin-top: 2px;
+  float: left;
+}
+
+.monthly-expense-input-box-four{
+  width: 133px;
+  height: 29px;
+  border: none;
+  color: white;
+  background: #B5BFC6;
+  border-radius: 0px 9px 9px 0px;
+  float: left;
+}
+
+.monthly-expense-input-container-five{
+  width: 167px;
+  height: 31px;
+  margin-top: 14px;
+  background: transparent;
+  float: left;
+}
+
+.rand-container-eight{
+  width: 30px;
+  height: 31px;
+  background: #6E7F8D;
+  float: left;
+}
+
+.R-text-eight{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 23px;
+  color: #ECCC68;
+  margin-left: 8px;
+  margin-top: 2px;
+  float: left;
+}
+
+.monthly-expense-input-box-five{
+  width: 133px;
+  height: 29px;
+  border: none;
+  color: white;
+  background: #B5BFC6;
+  border-radius: 0px 9px 9px 0px;
+  float: left;
+}
+
+.monthly-expense-input-container-six{
+  width: 167px;
+  height: 31px;
+  margin-top: 14px;
+  background: transparent;
+  float: left;
+}
+
+.rand-container-nine{
+  width: 30px;
+  height: 31px;
+  background: #6E7F8D;
+  float: left;
+}
+
+.R-text-nine{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 23px;
+  color: #ECCC68;
+  margin-left: 8px;
+  margin-top: 2px;
+  float: left;
+}
+
+.monthly-expense-input-box-six{
+  width: 133px;
+  height: 29px;
+  border: none;
+  color: white;
   background: #B5BFC6;
   border-radius: 0px 9px 9px 0px;
   float: left;
