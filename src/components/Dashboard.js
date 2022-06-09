@@ -61,12 +61,21 @@ const Dashboard= () => {
                     <p className='income-after-tax-profile-two-name'>Name Two</p>
                 </div>
             </div>
-             {/* End of Income After Tax Container */}
         </div>
-       
-       
+        {/* End of Income After Tax Container */}
 
         <div className="monthly-expense-container">
+            <p className="monthly-expense-text">Monthly Expense</p>
+            <div className="monthly-expense-content-container">
+                <div className="monthly-expense-input-box">
+                    <form></form>
+                    <select className="expense-one">
+                        <option>Select Your Expense</option>
+                        <option>Fuel</option>
+                    </select>
+                    
+                </div>
+            </div>
         </div>
         <div className="results-container"></div>
        

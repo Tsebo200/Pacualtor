@@ -599,6 +599,46 @@ body {
   float: left;
 }
 
+.monthly-expense-text{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 24px;
+  margin-left: 254px;
+  float: left;
+}
+
+.monthly-expense-content-container{
+  width: 563px;
+  height: 256px;
+  margin-top: 23px;
+  margin-left: 29px;
+  background: rgba(233, 233, 239, 0.9);
+  float: left;
+}
+
+.monthly-expense-input-box{
+  width: 369px;
+  height: 251px;
+  /* background: rgba(1, 11, 32, 0.3); */
+  float: left;
+}
+
+select{
+  background: #F0F0F8;
+  outline-color:#010B20;
+  color: #010B20;
+  border: none;
+}
+
+.expense-one{
+  width: 368px;
+  height: 26px;
+  margin-top: 3px;
+  float: left;
+}
+
+/* Start of Results Container */
 .results-container{
   width: 347px;
   height: 399px;

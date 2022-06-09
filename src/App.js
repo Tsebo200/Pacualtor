@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '../src/assets/Logo.svg';
 import './App.css';
 import {Routes, Route} from 'react-router-dom';
 import TaxCalc from './Functions/TaxCalculate';
