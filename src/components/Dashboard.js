@@ -66,14 +66,82 @@ const Dashboard= () => {
 
         <div className="monthly-expense-container">
             <p className="monthly-expense-text">Monthly Expense</p>
-            <div className="monthly-expense-content-container">
+            <div className="monthly-expense-content-container-left">
                 <div className="monthly-expense-input-box">
-                    <form></form>
                     <select className="expense-one">
                         <option>Select Your Expense</option>
+                        <option>Rent</option>
+                        <option>Water and Electricity</option>
                         <option>Fuel</option>
+                        <option>Groceries</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Others</option>
                     </select>
-                    
+                
+                    <select className="expense-two">
+                        <option>Select Your Expense</option>
+                        <option>Rent</option>
+                        <option>Water and Electricity</option>
+                        <option>Fuel</option>
+                        <option>Groceries</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Others</option>
+                    </select>
+
+                    <select className="expense-three">
+                        <option>Select Your Expense</option>
+                        <option>Rent</option>
+                        <option>Water and Electricity</option>
+                        <option>Fuel</option>
+                        <option>Groceries</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Others</option>
+                    </select>
+
+                    <select className="expense-four">
+                        <option>Select Your Expense</option>
+                        <option>Rent</option>
+                        <option>Water and Electricity</option>
+                        <option>Fuel</option>
+                        <option>Groceries</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Others</option>
+                    </select>
+
+                    <select className="expense-five">
+                        <option>Select Your Expense</option>
+                        <option>Rent</option>
+                        <option>Water and Electricity</option>
+                        <option>Fuel</option>
+                        <option>Groceries</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Others</option>
+                    </select>
+
+                    <select className="expense-six">
+                        <option>Select Your Expense</option>
+                        <option>Rent</option>
+                        <option>Water and Electricity</option>
+                        <option>Fuel</option>
+                        <option>Groceries</option>
+                        <option>Internet</option>
+                        <option>Subscriptions</option>
+                        <option>Others</option>
+                    </select>
+
+                    </div>
+                {/* End Monthly Expense Container Left */}
+
+                <div className="monthly-expense-content-container-right">
+                <div className="monthly-expense-input-container-one">
+                <div className="rand-container-four"><p className="R-text-four">R</p></div>
+                    <div className="monthly-expense-input-box-one"></div>
+                </div>
                 </div>
             </div>
         </div>

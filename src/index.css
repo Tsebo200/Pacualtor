@@ -7,7 +7,7 @@ body {
 .main-container{
   width: 1440px;
   height: 100vh;
-  background-color: #F1F0F6;
+  background: #F1F0F6;
 }
 
 .side-bar-container{
@@ -432,7 +432,7 @@ body {
 .income-after-tax-output-container-one{
   width: 238px;
   height: 45px;
-  background-color: transparent;
+  background: transparent;
   border-radius: 0px 9px 9px 0px;
   float: left;
 }
@@ -477,7 +477,7 @@ body {
   width: 238px;
   height: 45px;
   margin-top: 33px;
-  background-color: transparent;
+  background: transparent;
   border-radius: 0px 9px 9px 0px;
   float: left;
 }
@@ -608,7 +608,7 @@ body {
   float: left;
 }
 
-.monthly-expense-content-container{
+.monthly-expense-content-container-left{
   width: 563px;
   height: 256px;
   margin-top: 23px;
@@ -635,6 +635,82 @@ select{
   width: 368px;
   height: 26px;
   margin-top: 3px;
+  float: left;
+}
+
+.expense-two{
+  width: 368px;
+  height: 26px;
+  margin-top: 19px;
+  float: left;
+}
+
+.expense-three{
+  width: 368px;
+  height: 26px;
+  margin-top: 19px;
+  float: left;
+}
+
+.expense-four{
+  width: 368px;
+  height: 26px;
+  margin-top: 19px;
+  float: left;
+}
+
+.expense-five{
+  width: 368px;
+  height: 26px;
+  margin-top: 19px;
+  float: left;
+}
+
+.expense-six{
+  width: 368px;
+  height: 26px;
+  margin-top: 19px;
+  float: left;
+}
+
+
+.monthly-expense-content-container-right{
+  width: 167px;
+  height: 256px;
+  margin-left: 25px;
+  background: rgba(216, 216, 225, 0.9);
+  float: left;
+}
+
+.monthly-expense-input-container-one{
+  width: 167px;
+  height: 31px;
+  background: transparent;
+  float: left;
+}
+
+.rand-container-four{
+  width: 30px;
+  height: 31px;
+  background: #6E7F8D;
+  float: left;
+}
+
+.R-text-four{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 23px;
+  color: #ECCC68;
+  margin-left: 8px;
+  margin-top: 2px;
+  float: left;
+}
+
+.monthly-expense-input-box-one{
+  width: 137px;
+  height: 31px;
+  background: #B5BFC6;
+  border-radius: 0px 9px 9px 0px;
   float: left;
 }
 
