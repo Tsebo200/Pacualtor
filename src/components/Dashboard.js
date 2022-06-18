@@ -72,7 +72,7 @@ const Dashboard= () => {
                         <option>Select Your Expense</option>
                         <option>Rent</option>
                         <option>Water and Electricity</option>
-                        <option>Fuel</option>
+                        <option>Petrol</option>
                         <option>Groceries</option>
                         <option>Internet</option>
                         <option>Subscriptions</option>
@@ -83,7 +83,7 @@ const Dashboard= () => {
                         <option>Select Your Expense</option>
                         <option>Rent</option>
                         <option>Water and Electricity</option>
-                        <option>Fuel</option>
+                        <option>Petrol</option>
                         <option>Groceries</option>
                         <option>Internet</option>
                         <option>Subscriptions</option>
@@ -94,7 +94,7 @@ const Dashboard= () => {
                         <option>Select Your Expense</option>
                         <option>Rent</option>
                         <option>Water and Electricity</option>
-                        <option>Fuel</option>
+                        <option>Petrol</option>
                         <option>Groceries</option>
                         <option>Internet</option>
                         <option>Subscriptions</option>
@@ -105,7 +105,7 @@ const Dashboard= () => {
                         <option>Select Your Expense</option>
                         <option>Rent</option>
                         <option>Water and Electricity</option>
-                        <option>Fuel</option>
+                        <option>Petrol</option>
                         <option>Groceries</option>
                         <option>Internet</option>
                         <option>Subscriptions</option>
@@ -116,7 +116,7 @@ const Dashboard= () => {
                         <option>Select Your Expense</option>
                         <option>Rent</option>
                         <option>Water and Electricity</option>
-                        <option>Fuel</option>
+                        <option>Petrol</option>
                         <option>Groceries</option>
                         <option>Internet</option>
                         <option>Subscriptions</option>
@@ -127,7 +127,7 @@ const Dashboard= () => {
                         <option>Select Your Expense</option>
                         <option>Rent</option>
                         <option>Water and Electricity</option>
-                        <option>Fuel</option>
+                        <option>Petrol</option>
                         <option>Groceries</option>
                         <option>Internet</option>
                         <option>Subscriptions</option>
@@ -176,8 +176,39 @@ const Dashboard= () => {
                 <p className="suffer-text">Make Me Suffer</p>
             </div>
         </div>
-        <div className="results-container"></div>
-       
+        <div className="results-container">
+            <p className="amount-left-text">Amount Left Over</p>
+            <p className="grand-total-text">Grand Total</p>
+            <div className="result-output-container">
+                <div className="rand-container-eleven"><p className="R-text-eleven">R</p></div>
+                <div className="results-output-box"></div>
+            </div>
+            <div className="how-much-save-text">How much do you want to save?</div>
+            <div className="percent-save-box">
+                <select className="percent-numb">
+                    <option value="10">10%</option>
+                    <option value="20">20%</option>
+                    <option value="30">30%</option>
+                    <option value="40">40%</option>
+                    <option value="50">50%</option>
+                    <option value="60">60%</option>
+                    <option value="70">70%</option>
+                    <option value="80">80%</option>
+                    <option value="90">90%</option>
+                    <option value="100">100%</option>
+                </select>
+            </div>
+            <div className="profile-amount-container-left">
+                <div className="profile-amount-left"></div>
+                <div className="profile-amount-name-one">Name One</div>
+                <div className="profile-one-savings">R 30</div>
+            </div>
+            <div className="profile-amount-container-right">
+                <div className="profile-amount-right"></div>
+                <div className="profile-amount-name-two">Name Two</div>
+                <div className="profile-two-savings">R 30</div>
+            </div>
+        </div>
         </div> 
         </> 
     )
