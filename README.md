@@ -20,7 +20,7 @@
 <p align="center">
 
   <a href="https://github.com/Tsebo200/paculate">
-    <img src="../src/Assets/Logo\ 2.png" alt="../src/Assets/Logo\ 2.png" width="140" height="140">
+    <img src="../src/assets/Logo.svg" align="center" alt="../src/Assets/Logo\ 2.png" width="140" height="140">
   </a>
   
   <h3 align="center">paculate</h3>
