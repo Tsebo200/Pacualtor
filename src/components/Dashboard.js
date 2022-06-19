@@ -2,34 +2,24 @@ import React from "react";
 import {useState} from "react";
 
 const Dashboard = () => {
-    // const [nameOne, setNameOne] = useState({});
-    // const [nameUpdateOne, setNameUpdateOne] = useState({});
 
-    // const handleChange = (event) => {
-    //     // setNameOne(event.target.value);
-    //     // console.log(event.target.value)
-    //     const name = event.target.name;
-    //     const value = event.target.value;
-    //     setNameOne(values => ({...values, [name]: value}))
-    //     }
-
-    //   function handleAdd(){
-
-    //   }
-    
-    //   const handleSubmit = (event) =>{
-    //     event.preventDefault();
-    //     console.log(nameOne);
-    //   }
     const handleChange = () => {
-    let nameOne = document.getElementById("nameOne").value;
-    let nameTwo = document.getElementById("nameTwo").value;
-    document.getElementById("name-one-output").textContent = nameOne;
-    document.getElementById("name-two-output").textContent = nameTwo;
-    document.getElementById("name-three-output").textContent = nameOne;
-    document.getElementById("name-four-output").textContent = nameTwo;
-    document.getElementById("name-five-output").textContent = nameOne;
-    document.getElementById("name-six-output").textContent = nameTwo;
+        let nameOne = document.getElementById("nameOne").value;
+        let nameTwo = document.getElementById("nameTwo").value;
+        document.getElementById("name-one-output").textContent = nameOne;
+        document.getElementById("name-two-output").textContent = nameTwo;
+        document.getElementById("name-three-output").textContent = nameOne;
+        document.getElementById("name-four-output").textContent = nameTwo;
+        document.getElementById("name-five-output").textContent = nameOne;
+        document.getElementById("name-six-output").textContent = nameTwo;
+        handleNetIncome();
+    }
+
+    const handleNetIncome = () => {
+        let nameOneIncome = +document.getElementById("name-one-income").value;
+        let nameTwoIncome = +document.getElementById("name-two-income").value;
+        let netIncome = nameOneIncome + nameTwoIncome;
+        document.getElementById("net-income-output").textContent = netIncome + ".00";
     }
 
     return(
@@ -43,13 +33,13 @@ const Dashboard = () => {
         <p className="input-label-one">Please Enter Your Name</p>
         <form><input id="nameOne" className="name-input-one" type={'text'}></input></form>
         <p className="input-label-two">Please Enter Your Earnings PM</p>
-        <form><input className="salary-input-one" type={'number'}></input></form>
+        <form><input id="name-one-income" className="salary-input-one" type={'number'}></input></form>
 
         <div className="profile-two-img"></div>
         <p className="input-label-three">Please Enter Your Name</p>
         <form><input id="nameTwo" className="name-input-two" type={'text'}></input></form>
         <p className="input-label-four">Please Enter Your Earnings PM</p>
-        <form><input className="salary-input-two" type={'number'}></input></form>
+        <form><input id="name-two-income" className="salary-input-two" type={'number'}></input></form>
         <div onClick={handleChange} className="begin-btn" type={'submit'}><p className="begin-text">Let's Begin</p></div>
         </div>
         {/* End of Side-Bar Container */}
@@ -58,7 +48,9 @@ const Dashboard = () => {
             <p className="net-income-text">Total Net Income</p>
             <div className="net-income-output-container">
                 <div className="rand-container-one"><p className="R-text-one">R</p></div>
-                <div className="net-income-output-box"></div>
+                <div className="net-income-output-box">
+                    <p  id="net-income-output" ></p>
+                </div>
             </div>
             <div className="line-breaker"></div>
             <div className="name-one-net-inc-container">
