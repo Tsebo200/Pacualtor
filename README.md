@@ -15,7 +15,8 @@
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Tsebo Ramonyalioa</h5>
 <h5 align="center" style="padding:0;margin:0;">200200</h5>
-<h6 align="center">DV200 - Term 1 | 2022</h6>
+<h6 align="center">DV202 - Term 2 | 2022</h6>
+<h6 align="center">Unit Testing</h6>
 </br>
 <p align="center">
 
@@ -23,7 +24,7 @@
     <img src="src/assets/Logo.svg" align="center" alt="../src/Assets/Logo\ 2.png" width="140" height="140">
   </a>
   
-  <h3 align="center">paculate</h3>
+  <h3 align="center"><p className="paculate-text"><mark className="P-text">P</mark><mark className="a-text-one">a</mark><mark className="c-text">c</mark><mark className="u-text">u</mark><mark className="l-text">l</mark><mark className="a-text-two">a</mark><mark className="t-text">t</mark><mark className="o-text">o</mark><mark className="r-text">r</mark></p></h3>
 
   <p align="center">
     A react project using the Jikan Api to demonstrate data visualisation using charts js  <br>
