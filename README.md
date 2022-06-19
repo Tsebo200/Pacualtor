@@ -149,7 +149,10 @@ The `Conceptual Process` is the set of actions, activities and research that was
 ### Wireframes
 
 ![image7](https://raw.githubusercontent.com/Tsebo200/paculate/main/src/Assets/ReadMe/Wires.jpg)
-<img src="src/assets/WireOne.jpg" align="center" >
+<img src="src/assets/WireOne.jpg" align="center">
+<img src="src/assets/WireTwo.jpg" align="center">
+<img src="src/assets/WireThree.jpg" align="center">
+<img src="src/assets/WireFour.jpg" align="center">
 
 ### Custom UI
 
