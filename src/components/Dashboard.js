@@ -1,9 +1,8 @@
 import React from "react";
-import {useState} from "react";
-// import TaxCalc from "../Functions/TaxCalculate";
+// import { monthlyExpense } from "../Functions/Subtraction";
+// import { totalIncomeAfterTax } from "../Functions/TaxCalculate";
 
 const Dashboard = () => {
-
 
     // Names Function
     const handleChange = () => {
@@ -127,12 +126,23 @@ const Dashboard = () => {
         }
     
         let totalIncomeAfterTax = Math.round((nameOneIncome - yearTotalOne) + (nameTwoIncome - yearTotalTwo));
-
+        console.log(totalIncomeAfterTax)
+        // Income After Tax
         document.getElementById("tax-after-output").textContent = totalIncomeAfterTax + ".00";
+
+        // Tax Deducted
+        let deductions = nameOneIncome + nameTwoIncome - totalIncomeAfterTax;
+        document.getElementById("tax-amount-output").textContent = deductions + ".00";
+        console.log(deductions)
+        // Tax Bracket
+        document.getElementById("tax-bracket-one").textContent = taxBracketOne;
+        document.getElementById("tax-bracket-two").textContent = taxBracketTwo;
+       
+
     }
 
-    // Monthly Expense Function
-    const handleMonthlyExpense = () => {
+   // Monthly Expense Function
+ const handleMonthlyExpense = () => {
     let expenseOne = +document.getElementById("expense-one").value;
     let expenseTwo = +document.getElementById("expense-two").value;
     let expenseThree = +document.getElementById("expense-three").value;
@@ -141,7 +151,22 @@ const Dashboard = () => {
     let expenseSix = +document.getElementById("expense-six").value;
     let monthlyExpenses = expenseOne + expenseTwo + expenseThree + expenseFour + expenseFive + expenseSix;
         document.getElementById("monthly-expense-output").textContent = monthlyExpenses + ".00";
+        console.log("YES");
+        console.log(monthlyExpenses)
+        
     }
+
+    const handleGrandTotal = () => {
+        let afterTax = handleTax();
+        let afterDeductions = handleMonthlyExpense();
+        let finalAmount = afterTax - afterDeductions;
+        document.getElementById("grand-total-amount").textContent = finalAmount + ".00"; 
+        console.log(afterTax);
+        console.log(afterDeductions);
+        console.log(finalAmount);
+    }
+
+    // const handleIncomePercent 
 
     return(
         <>
@@ -197,7 +222,9 @@ const Dashboard = () => {
                 </div>
                 <div className="income-after-tax-output-container-two">
                     <div className="rand-container-three"><p className="R-text-three">R</p></div>
-                    <div className="income-after-tax-output-box-two"></div>
+                    <div className="income-after-tax-output-box-two">
+                        <p id="tax-amount-output"></p>
+                    </div>
                     <p className="damn-thieves-text">DAMN THOSE THIEVES!</p>
                 </div>
             </div>
@@ -205,15 +232,23 @@ const Dashboard = () => {
                 <div className="income-after-tax-user-one-box">
                     <div className="income-after-tax-profile-one"></div>
                     <div className="income-after-tax-text-container-one">
-                    <p id="name-three-output" className='income-after-tax-profile-one-name'>Name One</p>
+                    <p id="name-three-output" className='income-after-tax-profile-one-name'></p>
                     </div>
                 </div>
                 <div className="income-after-tax-user-two-box">
                     <div className="income-after-tax-profile-two"></div>
                     <div className="income-after-tax-text-container-two">
-                    <p id="name-four-output" className='income-after-tax-profile-two-name'>Name Two</p>
+                    <p id="name-four-output" className='income-after-tax-profile-two-name'></p>
                     </div>
                 </div>
+            </div>
+            <div className="tax-bracket-container-one">
+                <p className="tax-bracket-text">Tax Bracket</p>
+                <p id="tax-bracket-one"></p>
+            </div>
+            <div className="tax-bracket-container-two">
+                <p className="tax-bracket-text">Tax Bracket</p>
+                <p id="tax-bracket-two"></p>
             </div>
         </div>
         {/* End of Income After Tax Container */}
@@ -293,32 +328,32 @@ const Dashboard = () => {
                 <div className="monthly-expense-content-container-right">
                     <div className="monthly-expense-input-container-one">
                         <div className="rand-container-four"><p className="R-text-four">R</p></div>
-                            <input id="expense-one" onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-one"></input>
+                            <input id="expense-one" type={'number'} className="monthly-expense-input-box-one"></input>
                     </div>
 
                     <div className="monthly-expense-input-container-two">
                         <div className="rand-container-five"><p className="R-text-five">R</p></div>
-                            <input id="expense-two"onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-two"></input>
+                            <input id="expense-two" type={'number'} className="monthly-expense-input-box-two"></input>
                     </div>
 
                     <div className="monthly-expense-input-container-three">
                         <div className="rand-container-six"><p className="R-text-six">R</p></div>
-                            <input id="expense-three" onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-three"></input>
+                            <input id="expense-three" type={'number'} className="monthly-expense-input-box-three"></input>
                     </div>
 
                     <div className="monthly-expense-input-container-four">
                         <div className="rand-container-seven"><p className="R-text-seven">R</p></div>
-                            <input id="expense-four" onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-four"></input>
+                            <input id="expense-four" type={'number'} className="monthly-expense-input-box-four"></input>
                     </div>
 
                     <div className="monthly-expense-input-container-five">
                         <div className="rand-container-eight"><p className="R-text-eight">R</p></div>
-                            <input id="expense-five" onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-five"></input>
+                            <input id="expense-five" type={'number'} className="monthly-expense-input-box-five"></input>
                     </div>
 
                     <div className="monthly-expense-input-container-six">
                         <div className="rand-container-nine"><p className="R-text-nine">R</p></div>
-                            <input id="expense-six" onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-six"></input>
+                            <input id="expense-six" type={'number'} className="monthly-expense-input-box-six"></input>
                     </div>
                 </div>
             </div>
@@ -328,7 +363,7 @@ const Dashboard = () => {
                         <p id="monthly-expense-output"></p>
                     </div>
             </div>
-            <div onClick={handleMonthlyExpense} className="suffer-btn">
+            <div onClick= {() => {handleMonthlyExpense(); handleGrandTotal()}} type={'submit'} className="suffer-btn">
                 <p className="suffer-text">Make Me Suffer</p>
             </div>
         </div>
@@ -337,7 +372,9 @@ const Dashboard = () => {
             <p className="grand-total-text">Grand Total</p>
             <div className="result-output-container">
                 <div className="rand-container-eleven"><p className="R-text-eleven">R</p></div>
-                <div className="results-output-box"></div>
+                <div className="results-output-box">
+                    <p id="grand-total-amount"></p>
+                </div>
             </div>
             <div className="how-much-save-text">How much do you want to save?</div>
             <div className="percent-save-box">
