@@ -89,11 +89,15 @@ const Dashboard = () => {
             <div className="income-after-tax-right-container">
                 <div className="income-after-tax-user-one-box">
                     <div className="income-after-tax-profile-one"></div>
+                    <div className="income-after-tax-text-container-one">
                     <p id="name-three-output" className='income-after-tax-profile-one-name'>Name One</p>
+                    </div>
                 </div>
                 <div className="income-after-tax-user-two-box">
                     <div className="income-after-tax-profile-two"></div>
+                    <div className="income-after-tax-text-container-two">
                     <p id="name-four-output" className='income-after-tax-profile-two-name'>Name Two</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -235,12 +239,16 @@ const Dashboard = () => {
             </div>
             <div className="profile-amount-container-left">
                 <div className="profile-amount-left"></div>
+                <div className="profile-amount-text-container-one">
                 <div id="name-five-output" className="profile-amount-name-one">Name One</div>
+                </div>
                 <div className="profile-one-savings">R 30</div>
             </div>
             <div className="profile-amount-container-right">
                 <div className="profile-amount-right"></div>
+                <div className="profile-amount-text-container-two">
                 <div id="name-six-output" className="profile-amount-name-two">Name Two</div>
+                </div>
                 <div className="profile-two-savings">R 30</div>
             </div>
         </div>
