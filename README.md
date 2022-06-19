@@ -24,10 +24,10 @@
     <img src="src/assets/Logo.svg" align="center" alt="../src/Assets/Logo\ 2.png" width="140" height="140">
   </a>
   
-  <h3 align="center"><p className="paculate-text"><mark className="P-text">P</mark><mark className="a-text-one">a</mark><mark className="c-text">c</mark><mark className="u-text">u</mark><mark className="l-text">l</mark><mark className="a-text-two">a</mark><mark className="t-text">t</mark><mark className="o-text">o</mark><mark className="r-text">r</mark></p></h3>
+  <h3 align="center">Paculate</h3>
 
   <p align="center">
-    A react project using the Jikan Api to demonstrate data visualisation using charts js  <br>
+    A react project to manage breadwinners earnings while unit testing all the functions<br>
     
    <br />
    <br />
@@ -70,12 +70,12 @@
 
 ### Project Description
 
-My Project is about the comparison of animes data in charts js. It is a solution for weebs that are unable to find data comparison about Anime.
+My Project is a budget calculator, that calculates breadwinners earnings. The breadwinner can manage their taxes, monthly expenses as well as their savings. 
 
 ### Built With
 
 * [React](https://reactjs.org/)
-* [Charts JS](https://www.chartjs.org/)
+* [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 
 <!-- GETTING STARTED -->
@@ -86,7 +86,7 @@ The following instructions will get you a copy of the project up and running on 
 
 ### Prerequisites
 
-Ensure that you have the latest version of [NPM](https://www.npmjs.com/) installed on your machine. The [GitHub Desktop](https://desktop.github.com/) program will also be required. You will also need a typeface called Avenir on your local machine for the best experience.
+Ensure that you have the latest version of [NPM](https://www.npmjs.com/) installed on your machine. The [GitHub Desktop](https://desktop.github.com/) program will also be required. 
 
 ### How to install
 
@@ -108,9 +108,6 @@ Run the following in the command-line to install all the required dependencies:
    ```sh
    npm install
    ```
-
-4. An API key is not required
-
 
 <!-- FEATURES AND FUNCTIONALITY-->
 <!-- You can add the links to all of your imagery at the bottom of the file as references -->
@@ -152,6 +149,7 @@ The `Conceptual Process` is the set of actions, activities and research that was
 ### Wireframes
 
 ![image7](https://raw.githubusercontent.com/Tsebo200/paculate/main/src/Assets/ReadMe/Wires.jpg)
+<img src="src/assets/WireOne.jpg" align="center" width="140" height="140">
 
 ### Custom UI
 
