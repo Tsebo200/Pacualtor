@@ -138,7 +138,7 @@ const Dashboard = () => {
         document.getElementById("tax-bracket-one").textContent = taxBracketOne;
         document.getElementById("tax-bracket-two").textContent = taxBracketTwo;
        
-
+        return totalIncomeAfterTax;
     }
 
    // Monthly Expense Function
@@ -152,8 +152,8 @@ const Dashboard = () => {
     let monthlyExpenses = expenseOne + expenseTwo + expenseThree + expenseFour + expenseFive + expenseSix;
         document.getElementById("monthly-expense-output").textContent = monthlyExpenses + ".00";
         console.log("YES");
-        console.log(monthlyExpenses)
-        
+        console.log(monthlyExpenses);
+        return monthlyExpenses;
     }
 
     const handleGrandTotal = () => {
@@ -164,9 +164,23 @@ const Dashboard = () => {
         console.log(afterTax);
         console.log(afterDeductions);
         console.log(finalAmount);
+        return finalAmount;
     }
 
-    // const handleIncomePercent 
+    const handleIncomePercent = () => {
+       let totalIncome = handleNetIncome();
+
+       let nameOneIncome = +document.getElementById("name-one-income").value;
+       let nameTwoIncome = +document.getElementById("name-two-income").value;
+    
+       let percentOutOne = Math.round((nameOneIncome/totalIncome)) * 100;
+       let percentOutTwo = Math.round((nameTwoIncome/totalIncome)) * 100;
+    
+        document.getElementById("person-one-percent").textContent = percentOutOne + "%";
+        document.getElementById("person-two-percent").textContent = percentOutTwo + "%";
+    
+        return [percentOutOne, percentOutTwo];
+    }
 
     return(
         <>
