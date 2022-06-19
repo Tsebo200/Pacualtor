@@ -378,6 +378,18 @@ body {
   float: left;
 }
 
+#net-income-output{
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  float: left;
+  padding-left: 5%;
+  margin-top: 10px;
+}
+
 .name-one-net-inc-container{
   width: 163px;
   height: 61px;
@@ -500,6 +512,18 @@ body {
   background: #B5BFC6;
   border-radius: 0px 9px 9px 0px;
   float: left;
+}
+
+#tax-after-output{
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  float: left;
+  padding-left: 5%;
+  margin-top: 10px;
 }
 
 .amount-deducted-text{
@@ -964,9 +988,9 @@ input{
 
 .rand-container-ten{
   width: 54px;
-height: 45px;
-background: #6E7F8D;
-float: left;
+  height: 45px;
+  background: #6E7F8D;
+  float: left;
 }
 
 .R-text-ten{
@@ -977,6 +1001,18 @@ float: left;
   margin-left: 18px;
   color: #FEA502;
   float: left;
+}
+
+#monthly-expense-output{
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  float: left;
+  padding-left: 5%;
+  margin-top: 10px;
 }
 
 .monthly-expense-output-box{

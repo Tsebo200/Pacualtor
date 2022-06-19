@@ -1,8 +1,11 @@
 import React from "react";
 import {useState} from "react";
+// import TaxCalc from "../Functions/TaxCalculate";
 
 const Dashboard = () => {
 
+
+    // Names Function
     const handleChange = () => {
         let nameOne = document.getElementById("nameOne").value;
         let nameTwo = document.getElementById("nameTwo").value;
@@ -13,13 +16,131 @@ const Dashboard = () => {
         document.getElementById("name-five-output").textContent = nameOne;
         document.getElementById("name-six-output").textContent = nameTwo;
         handleNetIncome();
+        handleTax();
     }
 
+    // Total Net Income Function
     const handleNetIncome = () => {
         let nameOneIncome = +document.getElementById("name-one-income").value;
         let nameTwoIncome = +document.getElementById("name-two-income").value;
         let netIncome = nameOneIncome + nameTwoIncome;
         document.getElementById("net-income-output").textContent = netIncome + ".00";
+    }
+
+    // Tax Calculation Function
+    const handleTax = () => {
+        
+        let nameOneIncome = +document.getElementById("name-one-income").value;
+        let nameTwoIncome = +document.getElementById("name-two-income").value;
+
+        let yearTotalOne = nameOneIncome * 12;
+        let yearTotalTwo = nameTwoIncome * 12;
+        let taxBracketOne = 0;
+        let taxBracketTwo = 0;
+        let tax = 0;
+        let baseRate = 0;
+    
+        // Person One
+        if(yearTotalOne < 226000){
+            tax = yearTotalOne * 0.18;
+            yearTotalOne = tax/12;
+            taxBracketOne = taxBracketOne + 1;
+    
+        } else if(yearTotalOne < 353100) {
+            baseRate = 40680;
+            tax = (yearTotalOne - baseRate) * 0.26;
+            yearTotalOne = (tax + baseRate)/12;
+            taxBracketOne = taxBracketOne + 2;
+    
+        }else if(yearTotalOne < 488700){
+            baseRate = 	73726;
+            tax = (yearTotalOne - baseRate) * 0.31;
+            yearTotalOne = (tax + baseRate)/12;
+            taxBracketOne = taxBracketOne + 3;
+    
+        }else if(yearTotalOne < 641400){
+            baseRate = 115762;
+            tax = (yearTotalOne - baseRate) * 0.36;
+            yearTotalOne = (tax + baseRate)/12;
+            taxBracketOne = taxBracketOne + 4;
+    
+        }else if(yearTotalOne < 817600){
+            baseRate = 170734;
+            tax = (yearTotalOne - baseRate) * 0.39;
+            yearTotalOne = (tax + baseRate)/12;
+            taxBracketOne = taxBracketOne + 5;
+      
+        }else if(yearTotalOne < 1731600){
+            baseRate = 239452;
+            tax = (yearTotalOne - baseRate) * 0.41;
+            yearTotalOne = (tax + baseRate)/12;
+            taxBracketOne = taxBracketOne + 6;
+    
+        }else{
+            baseRate = 614192;
+            tax = (yearTotalOne - baseRate) * 0.45;
+            yearTotalOne = (tax + baseRate)/12;
+            taxBracketOne = taxBracketOne + 7;
+        }
+    
+        // PersonTwo
+        if(yearTotalTwo < 226000){
+            tax = yearTotalTwo * 0.18;
+            yearTotalTwo = tax/12;
+            taxBracketTwo = taxBracketTwo + 1;
+    
+        } else if(yearTotalTwo < 353100) {
+            baseRate = 40680;
+            tax = (yearTotalTwo - baseRate) * 0.26;
+            yearTotalTwo = (tax + baseRate)/12;
+            taxBracketTwo = taxBracketTwo + 2;
+    
+        }else if(yearTotalTwo < 488700){
+            baseRate = 	73726;
+            tax = (yearTotalTwo - baseRate) * 0.31;
+            yearTotalTwo = (tax + baseRate)/12;
+            taxBracketTwo = taxBracketTwo + 3;
+    
+        }else if(yearTotalTwo < 641400){
+            baseRate = 115762;
+            tax = (yearTotalTwo - baseRate) * 0.36;
+            yearTotalTwo = (tax + baseRate)/12;
+            taxBracketTwo = taxBracketTwo + 4;
+    
+        }else if(yearTotalTwo < 817600){
+            baseRate = 170734;
+            tax = (yearTotalTwo - baseRate) * 0.39;
+            yearTotalTwo = (tax + baseRate)/12;
+            taxBracketTwo = taxBracketTwo + 5;
+        
+        }else if(yearTotalTwo < 1731600){
+            baseRate = 239452;
+            tax = (yearTotalTwo - baseRate) * 0.41;
+            yearTotalTwo = (tax + baseRate)/12;
+            taxBracketTwo = taxBracketTwo + 6;
+    
+        }else{
+            baseRate = 614192;
+            tax = (yearTotalTwo - baseRate) * 0.45;
+            yearTotalTwo = (tax + baseRate)/12;
+            taxBracketTwo = taxBracketTwo + 7;
+        }
+    
+        let totalIncomeAfterTax = Math.round((nameOneIncome - yearTotalOne) + (nameTwoIncome - yearTotalTwo));
+
+        document.getElementById("tax-after-output").textContent = totalIncomeAfterTax + ".00";
+    }
+
+    // Monthly Expense Function
+    const handleMonthlyExpense = () => {
+    let expenseOne = +document.getElementById("expense-one").value;
+    let expenseTwo = +document.getElementById("expense-two").value;
+    let expenseThree = +document.getElementById("expense-three").value;
+    let expenseFour = +document.getElementById("expense-four").value;
+    let expenseFive = +document.getElementById("expense-five").value;
+    let expenseSix = +document.getElementById("expense-six").value;
+    let monthlyExpenses = expenseOne + expenseTwo + expenseThree + expenseFour + expenseFive + expenseSix;
+        document.getElementById("monthly-expense-output").textContent = monthlyExpenses + ".00";
     }
 
     return(
@@ -49,7 +170,7 @@ const Dashboard = () => {
             <div className="net-income-output-container">
                 <div className="rand-container-one"><p className="R-text-one">R</p></div>
                 <div className="net-income-output-box">
-                    <p  id="net-income-output" ></p>
+                    <p id="net-income-output"></p>
                 </div>
             </div>
             <div className="line-breaker"></div>
@@ -69,7 +190,9 @@ const Dashboard = () => {
             <div className="income-after-tax-left-container">
                 <div className="income-after-tax-output-container-one">
                     <div className="rand-container-two"><p className="R-text-two">R</p></div>
-                    <div className="income-after-tax-output-box-one"></div>
+                    <div className="income-after-tax-output-box-one">
+                        <p id="tax-after-output"></p>
+                    </div>
                     <p className="amount-deducted-text">Amount Deducted</p>
                 </div>
                 <div className="income-after-tax-output-container-two">
@@ -170,40 +293,42 @@ const Dashboard = () => {
                 <div className="monthly-expense-content-container-right">
                     <div className="monthly-expense-input-container-one">
                         <div className="rand-container-four"><p className="R-text-four">R</p></div>
-                            <input type={'number'} className="monthly-expense-input-box-one"></input>
+                            <input id="expense-one" onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-one"></input>
                     </div>
 
                     <div className="monthly-expense-input-container-two">
                         <div className="rand-container-five"><p className="R-text-five">R</p></div>
-                            <input type={'number'} className="monthly-expense-input-box-two"></input>
+                            <input id="expense-two"onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-two"></input>
                     </div>
 
                     <div className="monthly-expense-input-container-three">
                         <div className="rand-container-six"><p className="R-text-six">R</p></div>
-                            <input type={'number'} className="monthly-expense-input-box-three"></input>
+                            <input id="expense-three" onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-three"></input>
                     </div>
 
                     <div className="monthly-expense-input-container-four">
                         <div className="rand-container-seven"><p className="R-text-seven">R</p></div>
-                            <input type={'number'} className="monthly-expense-input-box-four"></input>
+                            <input id="expense-four" onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-four"></input>
                     </div>
 
                     <div className="monthly-expense-input-container-five">
                         <div className="rand-container-eight"><p className="R-text-eight">R</p></div>
-                            <input type={'number'} className="monthly-expense-input-box-five"></input>
+                            <input id="expense-five" onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-five"></input>
                     </div>
 
                     <div className="monthly-expense-input-container-six">
                         <div className="rand-container-nine"><p className="R-text-nine">R</p></div>
-                            <input type={'number'} className="monthly-expense-input-box-six"></input>
+                            <input id="expense-six" onChange={handleMonthlyExpense} type={'number'} className="monthly-expense-input-box-six"></input>
                     </div>
                 </div>
             </div>
             <div className="total-monthly-expense-box">
                     <div className="rand-container-ten"><p className="R-text-ten">R</p></div>
-                    <div className="monthly-expense-output-box"></div>
+                    <div className="monthly-expense-output-box">
+                        <p id="monthly-expense-output"></p>
+                    </div>
             </div>
-            <div className="suffer-btn">
+            <div onClick={handleMonthlyExpense} className="suffer-btn">
                 <p className="suffer-text">Make Me Suffer</p>
             </div>
         </div>
@@ -248,4 +373,6 @@ const Dashboard = () => {
         </> 
     )
 }
+// export const nameOneIncome = +document.getElementById("name-one-income").value;
+// export const nameTwoIncome = +document.getElementById("name-two-income").value;
 export default Dashboard
