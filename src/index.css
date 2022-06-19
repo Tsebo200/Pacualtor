@@ -413,14 +413,29 @@ body {
   float: left;
 }
 
+.name-two-net-inc-container{
+  width: 163px;
+  height: 61px;
+  background: red;
+  margin-top: -30px;
+  float: left;
+}
+
+.percent-contribute-two{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 4px;
+  text-align: center;
+}
+
 .name-two-net-inc{
   font-family: 'Inter';
   font-weight: 400;
   font-size: 13px;
   color: #010B20;
-  margin-top: 37px;
-  margin-left: 24px;
-  float: left;
+  margin-top: -25px;
+  text-align: center;
 }
 
 /* Income After Tax Container */

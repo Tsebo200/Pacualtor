@@ -23,7 +23,9 @@ const Dashboard = () => {
     //   }
     const handleChange = () => {
     let nameOne = document.getElementById("nameOne").value;
+    let nameTwo = document.getElementById("nameTwo").value;
     document.getElementById("name-one-output").textContent = nameOne;
+    document.getElementById("name-two-output").textContent = nameTwo;
     }
 
     return(
@@ -41,7 +43,7 @@ const Dashboard = () => {
 
         <div className="profile-two-img"></div>
         <p className="input-label-three">Please Enter Your Name</p>
-        <form><input className="name-input-two" type={'text'}></input></form>
+        <form><input id="nameTwo" className="name-input-two" type={'text'}></input></form>
         <p className="input-label-four">Please Enter Your Earnings PM</p>
         <form><input className="salary-input-two" type={'number'}></input></form>
         <div onClick={handleChange} className="begin-btn" type={'submit'}><p className="begin-text">Let's Begin</p></div>
@@ -59,7 +61,10 @@ const Dashboard = () => {
             <p className="percent-contribute-one">10</p>
             <p id="name-one-output" className="name-one-net-inc"></p>
             </div>
-            <p className="name-two-net-inc">Name Two</p>
+            <div className="name-two-net-inc-container">
+            <p className="percent-contribute-two">10</p>
+            <p id="name-two-output" className="name-two-net-inc"></p>
+            </div>
         </div>
         {/* End of Net Income Container */}
         
