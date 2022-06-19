@@ -1,8 +1,31 @@
 import React from "react";
+import {useState} from "react";
 
-const Dashboard= () => {
+const Dashboard = () => {
+    // const [nameOne, setNameOne] = useState({});
+    // const [nameUpdateOne, setNameUpdateOne] = useState({});
 
+    // const handleChange = (event) => {
+    //     // setNameOne(event.target.value);
+    //     // console.log(event.target.value)
+    //     const name = event.target.name;
+    //     const value = event.target.value;
+    //     setNameOne(values => ({...values, [name]: value}))
+    //     }
+
+    //   function handleAdd(){
+
+    //   }
     
+    //   const handleSubmit = (event) =>{
+    //     event.preventDefault();
+    //     console.log(nameOne);
+    //   }
+    const handleChange = () => {
+    let nameOne = document.getElementById("nameOne").value;
+    document.getElementById("name-one-output").textContent = nameOne;
+    }
+
     return(
         <>
         <div className="main-container">
@@ -12,16 +35,16 @@ const Dashboard= () => {
         <p className="slogan"><mark className="your-text">Your</mark><mark className="personal-text">Personal</mark><mark className="budget-text">Budget</mark><mark className="paculator-text">Paculator</mark></p>
         <div className="profile-one-img"></div>
         <p className="input-label-one">Please Enter Your Name</p>
-        <form><input className="name-input-one" type={'text'}></input></form>
-        <p className="input-label-two">Please Enter Your Earnings</p>
+        <form><input id="nameOne" className="name-input-one" type={'text'}></input></form>
+        <p className="input-label-two">Please Enter Your Earnings PM</p>
         <form><input className="salary-input-one" type={'number'}></input></form>
 
         <div className="profile-two-img"></div>
         <p className="input-label-three">Please Enter Your Name</p>
         <form><input className="name-input-two" type={'text'}></input></form>
-        <p className="input-label-four">Please Enter Your Earnings</p>
+        <p className="input-label-four">Please Enter Your Earnings PM</p>
         <form><input className="salary-input-two" type={'number'}></input></form>
-        <div className="begin-btn" type={'submit'}><p className="begin-text">Let's Begin</p></div>
+        <div onClick={handleChange} className="begin-btn" type={'submit'}><p className="begin-text">Let's Begin</p></div>
         </div>
         {/* End of Side-Bar Container */}
 
@@ -31,8 +54,11 @@ const Dashboard= () => {
                 <div className="rand-container-one"><p className="R-text-one">R</p></div>
                 <div className="net-income-output-box"></div>
             </div>
-            <p className="name-one-net-inc">Name One</p>
             <div className="line-breaker"></div>
+            <div className="name-one-net-inc-container">
+            <p className="percent-contribute-one">10</p>
+            <p id="name-one-output" className="name-one-net-inc"></p>
+            </div>
             <p className="name-two-net-inc">Name Two</p>
         </div>
         {/* End of Net Income Container */}
