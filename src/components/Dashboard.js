@@ -26,6 +26,10 @@ const Dashboard = () => {
     let nameTwo = document.getElementById("nameTwo").value;
     document.getElementById("name-one-output").textContent = nameOne;
     document.getElementById("name-two-output").textContent = nameTwo;
+    document.getElementById("name-three-output").textContent = nameOne;
+    document.getElementById("name-four-output").textContent = nameTwo;
+    document.getElementById("name-five-output").textContent = nameOne;
+    document.getElementById("name-six-output").textContent = nameTwo;
     }
 
     return(
@@ -85,11 +89,11 @@ const Dashboard = () => {
             <div className="income-after-tax-right-container">
                 <div className="income-after-tax-user-one-box">
                     <div className="income-after-tax-profile-one"></div>
-                    <p className='income-after-tax-profile-one-name'>Name One</p>
+                    <p id="name-three-output" className='income-after-tax-profile-one-name'>Name One</p>
                 </div>
                 <div className="income-after-tax-user-two-box">
                     <div className="income-after-tax-profile-two"></div>
-                    <p className='income-after-tax-profile-two-name'>Name Two</p>
+                    <p id="name-four-output" className='income-after-tax-profile-two-name'>Name Two</p>
                 </div>
             </div>
         </div>
@@ -231,12 +235,12 @@ const Dashboard = () => {
             </div>
             <div className="profile-amount-container-left">
                 <div className="profile-amount-left"></div>
-                <div className="profile-amount-name-one">Name One</div>
+                <div id="name-five-output" className="profile-amount-name-one">Name One</div>
                 <div className="profile-one-savings">R 30</div>
             </div>
             <div className="profile-amount-container-right">
                 <div className="profile-amount-right"></div>
-                <div className="profile-amount-name-two">Name Two</div>
+                <div id="name-six-output" className="profile-amount-name-two">Name Two</div>
                 <div className="profile-two-savings">R 30</div>
             </div>
         </div>
