@@ -3,13 +3,13 @@
 <!-- Repository Information & Links-->
 <br />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Tsebo200/paculate)
-![GitHub watchers](https://img.shields.io/github/watchers/Tsebo200/paculate)
-![GitHub language count](https://img.shields.io/github/languages/count/Tsebo200/paculate)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Tsebo200/paculate)
-![Github Language](https://img.shields.io/github/languages/top/Tsebo200/paculate)
-![Github Downloads](https://img.shields.io/github/downloads/Tsebo200/paculate/total)
-<!-- ![Github node Version](https://img.shields.io/node/v/paculate) -->
+![GitHub repo size](https://img.shields.io/github/repo-size/Tsebo200/paculator)
+![GitHub watchers](https://img.shields.io/github/watchers/Tsebo200/paculator)
+![GitHub language count](https://img.shields.io/github/languages/count/Tsebo200/paculator)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Tsebo200/paculator)
+![Github Language](https://img.shields.io/github/languages/top/Tsebo200/paculator)
+![Github Downloads](https://img.shields.io/github/downloads/Tsebo200/paculator/total)
+<!-- ![Github node Version](https://img.shields.io/node/v/paculator) -->
 
 
 <!-- HEADER SECTION -->
@@ -20,7 +20,7 @@
 </br>
 <p align="center">
 
-  <a href="https://github.com/Tsebo200/paculate">
+  <a href="https://github.com/Tsebo200/paculator">
     <img src="src/assets/Logo.svg" align="center" alt="../src/Assets/Logo\ 2.png" width="140" height="140">
   </a>
   
@@ -33,9 +33,9 @@
    <br />
    <a href="https://drive.google.com/file/d/1BT_I1xlJTMef2u1XfV93AzrsM9vlIC_y/view?usp=sharing">View Demo</a>
     ·
-    <a href="https://github.com/Tsebo200/paculate/issues">Report Bug</a>
+    <a href="https://github.com/Tsebo200/paculator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Tsebo200/paculate/issues">Request Feature</a>
+    <a href="https://github.com/Tsebo200/paculator/issues">Request Feature</a>
 </p>
 <!-- TABLE OF CONTENTS -->
 
@@ -94,12 +94,12 @@ Ensure that you have the latest version of [NPM](https://www.npmjs.com/) install
 Here are a couple of ways to clone this repo:
 
 1. GitHub Desktop </br>
-Enter `https://github.com/Tsebo200/paculate.git` into the URL field and press the `Clone` button.
+Enter `https://github.com/Tsebo200/paculator.git` into the URL field and press the `Clone` button.
 
 2. Clone Repository </br>
 Run the following in the command-line to clone the project:
    ```sh
-   git clone https://github.com/Tsebo200/paculate.git
+   git clone https://github.com/Tsebo200/paculator.git
    ```
     Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
@@ -139,37 +139,37 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Ideation
 This was my main look and feel. As I wanted to utilise the skeuomorphic design.
-![image4](https://raw.githubusercontent.com/Tsebo200/paculate/main/src/Assets/ReadMe/FeatureOne.jpg)
+![image4](https://raw.githubusercontent.com/Tsebo200/paculator/main/src/Assets/ReadMe/FeatureOne.jpg)
 <img src="src/assets/SceumorphicUI.jpeg" align="center">
 <br>
 
 ### Wireframes
 This is my first phase
-![image5](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireOne.jpg)
+![image5](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/WireOne.jpg)
 <img src="src/assets/WireOne.jpg" align="center"><br>
 
-![image6](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireFour.jpg)
+![image6](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/WireFour.jpg)
 <img src="src/assets/WireFour.jpg" align="center"><br>
 
-![image7](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireThree.jpg)
+![image7](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/WireThree.jpg)
 <img src="src/assets/WireThree.jpg" align="center"><br>
 
-![image8](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireTwo.jpg)
+![image8](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/WireTwo.jpg)
 <img src="src/assets/WireTwo.jpg" align="center">
 
 ### Custom UI
 This is the active state of my button
-![image9](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/Sufferbtn.png)
+![image9](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/Sufferbtn.png)
 <img src="src/assets/Sufferbtn.png" align="center">
 <br>
 
 This is the hover state of my button
-![image10](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/Sufferbtnhover.png)
+![image10](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/Sufferbtnhover.png)
 <img src="src/assets/Sufferbtnhover.png" align="center">
 <br>
 
 This is the skeuomorphic design on one of my component containers
-![image11](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/AmountLeftUI.png)
+![image11](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/AmountLeftUI.png)
 <img src="src/assets/AmountLeftUI.png" align="center">
 
 <!-- DEVELOPMENT PROCESS -->
@@ -183,10 +183,9 @@ In my frontend I implemented a Google Font called Inter, a box shadow on differe
 <!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
-* Utilized React `Charts.JS` dependency for Data visualization
+* Utilized React `RTL` dependency for Data visualization
 * Implemented Routing with `React-Router v6`.
-* API End Point: https://api.jikan.moe/v4/anime.
-* Used React Hooks to write less code
+* Wrote With Vanilla JavaScript
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
@@ -221,23 +220,23 @@ What aspects of this final build contribute to the `Above And Beyond` Component 
 ### Mockups
 
 ![image12](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockOne.png)
-<img src="src/assets/MockOne.png" align="center">
+
 <br>
 
 ![image13](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockTwo.png)
-<img src="src/assets/MockTwo.png" align="center">
+
 <br>
 
 ![image13](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockThree.png)
-<img src="src/assets/MockThree.png" align="center">
+
 <br>
 
 ![image14](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockFour.png)
-<img src="src/assets/MockFour.png" align="center">
+
 <br>
 
 ![image15](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockFive.png)
-<img src="src/assets/MockFive.png" align="center">
+
 <br>
 
 <!-- VIDEO DEMONSTRATION -->
@@ -248,7 +247,7 @@ To see a run through of the application, click below:
 [View Demonstration](https://drive.google.com/file/d/1gY-Q5ua-iswJ4MdF9xmGJ-9F9rR-bsMO/view?usp=sharing)
 
 
-See the [open issues](https://github.com/Tsebo200/paculate/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Tsebo200/paculator/issues) for a list of proposed features (and known issues).
 
 <!-- AUTHORS -->
 ## Authors
@@ -264,7 +263,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 ## Contact
 
 * **Tsebo Ramonyalioa** - [email@address](mailto:200200@virtualwidnow.co.za) - [@instagram_handle](https://www.instagram.com/inspiration200200/) 
-* **Project Link** - https://github.com/Tsebo200/paculate
+* **Project Link** - https://github.com/Tsebo200/Pacualtor
 
 <!-- ACKNOWLEDGEMENTS -->
 
