@@ -114,23 +114,27 @@ Run the following in the command-line to install all the required dependencies:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image1](https://raw.githubusercontent.com/Tsebo200/paculate/src/assets/MockOne.jpg)
+![image1](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/ButtonImg.png)
+<img src="src/assets/MockOne.jpg" align="center">
 
 ### All The Latest Anime Data! 
 
 Using the Jikan API, I have collected and collated all the most relevant Anime data into once seemless react experience!
 
-![image3][image3]
+![image2](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockTwo.png)
+<img src="src/assets/MockTwo.jpg" align="center">
 ### Feature 1
 
 This dropdown dynamically loads the data of the selected anime in the charts.
 
-![image4][image4]
+![image3](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockThree.png)
+<img src="src/assets/MockThree.jpg" align="center">
 ### Feature 2
 
 The functionality of the information pills and anime poster updates randomly every session. 
 
-![image5][image5]
+![image4](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockFour.png)
+<img src="src/assets/MockFour.jpg" align="center">
 
 
 <!-- CONCEPT PROCESS -->
@@ -209,7 +213,8 @@ What aspects of this final build contribute to the `Above And Beyond` Component 
 
 ### Mockups
 
-![image9](https://raw.githubusercontent.com/Tsebo200/paculate/main/src/Assets/ReadMe/MockUps.jpg)
+![image1](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockOne.png)
+<img src="src/assets/MockOne.jpg" align="center">
 <br>
 
 
