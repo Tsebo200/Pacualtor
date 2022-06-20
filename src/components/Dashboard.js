@@ -24,6 +24,8 @@ const Dashboard = () => {
         let nameTwoIncome = +document.getElementById("name-two-income").value;
         let netIncome = nameOneIncome + nameTwoIncome;
         document.getElementById("net-income-output").textContent = netIncome + ".00";
+
+        return netIncome;
     }
 
     // Tax Calculation Function
@@ -182,6 +184,21 @@ const Dashboard = () => {
         return [percentOutOne, percentOutTwo];
     }
 
+    const handleSaveMoney = () => {
+        let percentages = handleIncomePercent();
+        let finalTotal = handleGrandTotal();
+
+        let personOnePercent = percentages [0];
+        let personTwoPercent = percentages [1];
+
+        let savingpPercent = +document.getElementById("savings").value * 0.01;
+        let personOneSavings = Math.round((finalTotal * (personOnePercent * 0.01)) * savingpPercent);
+        let personTwoSavings = Math.round((finalTotal * (personTwoPercent * 0.01)) * savingpPercent);
+
+        document.getElementById("person-one-savings").textContent = "R " + personOneSavings;
+        document.getElementById("person-two-savings").textContent = "R " + personTwoSavings;
+    }
+
     return(
         <>
         <div className="main-container">
@@ -200,7 +217,7 @@ const Dashboard = () => {
         <form><input id="nameTwo" className="name-input-two" type={'text'}></input></form>
         <p className="input-label-four">Please Enter Your Earnings PM</p>
         <form><input id="name-two-income" className="salary-input-two" type={'number'}></input></form>
-        <div onClick={handleChange} className="begin-btn" type={'submit'}><p className="begin-text">Let's Begin</p></div>
+        <div onClick= {() => {handleChange(); handleIncomePercent()}} className="begin-btn" type={'submit'}><p className="begin-text">Let's Begin</p></div>
         </div>
         {/* End of Side-Bar Container */}
 
@@ -214,11 +231,11 @@ const Dashboard = () => {
             </div>
             <div className="line-breaker"></div>
             <div className="name-one-net-inc-container">
-            <p className="percent-contribute-one">10</p>
+            <p id="person-one-percent" className="percent-contribute-one"></p>
             <p id="name-one-output" className="name-one-net-inc"></p>
             </div>
             <div className="name-two-net-inc-container">
-            <p className="percent-contribute-two">10</p>
+            <p id="person-two-percent" className="percent-contribute-two"></p>
             <p id="name-two-output" className="name-two-net-inc"></p>
             </div>
         </div>
@@ -392,7 +409,7 @@ const Dashboard = () => {
             </div>
             <div className="how-much-save-text">How much do you want to save?</div>
             <div className="percent-save-box">
-                <select className="percent-numb">
+                <select id="savings" onChange={handleSaveMoney} className="percent-numb">
                     <option value="10">10%</option>
                     <option value="20">20%</option>
                     <option value="30">30%</option>
@@ -410,14 +427,14 @@ const Dashboard = () => {
                 <div className="profile-amount-text-container-one">
                 <div id="name-five-output" className="profile-amount-name-one">Name One</div>
                 </div>
-                <div className="profile-one-savings">R 30</div>
+                <div id="person-one-savings" className="profile-one-savings"></div>
             </div>
             <div className="profile-amount-container-right">
                 <div className="profile-amount-right"></div>
                 <div className="profile-amount-text-container-two">
                 <div id="name-six-output" className="profile-amount-name-two">Name Two</div>
                 </div>
-                <div className="profile-two-savings">R 30</div>
+                <div id="person-two-savings" className="profile-two-savings"></div>
             </div>
         </div>
         </div> 

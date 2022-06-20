@@ -24,7 +24,7 @@
     <img src="src/assets/Logo.svg" align="center" alt="../src/Assets/Logo\ 2.png" width="140" height="140">
   </a>
   
-  <h3 align="center">Paculate</h3>
+  <h3 align="center">Paculator</h3>
 
   <p align="center">
     A react project to manage breadwinners earnings while unit testing all the functions<br>
@@ -114,7 +114,7 @@ Run the following in the command-line to install all the required dependencies:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image2](https://raw.githubusercontent.com/Tsebo200/paculate/src/assets/mockup.jpg)
+![image1](https://raw.githubusercontent.com/Tsebo200/paculate/src/assets/MockOne.jpg)
 
 ### All The Latest Anime Data! 
 
@@ -148,11 +148,17 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Wireframes
 
-![image7](https://raw.githubusercontent.com/Tsebo200/paculate/main/src/Assets/ReadMe/Wires.jpg)
-<img src="src/assets/WireOne.jpg" align="center">
+![image7](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireOne.jpg)
+<img src="src/assets/WireOne.jpg" align="center"><br>
+
+![image8](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireFour.jpg)
+<img src="src/assets/WireFour.jpg" align="center"><br>
+
+![image7](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireThree.jpg)
+<img src="src/assets/WireThree.jpg" align="center"><br>
+
+![image7](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireTwo.jpg)
 <img src="src/assets/WireTwo.jpg" align="center">
-<img src="src/assets/WireThree.jpg" align="center">
-<img src="src/assets/WireFour.jpg" align="center">
 
 ### Custom UI
 
