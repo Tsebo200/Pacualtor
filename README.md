@@ -116,14 +116,17 @@ Run the following in the command-line to install all the required dependencies:
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 ### Feature 
 Once this button is clicked tax will be calculated and subtracted from your earnings on top of that your tax bracket will be displayed under your name in the income after tax container.
-<img src="src/assets/MockOne.jpg" align="center">
+![image1](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/ButtonImg.png)
+
 
 ### Functionality 
 This functionality shows the percentage of the contributed amount in the household. The more you have contributed the higher the percent you own of the Net Income. 
-<img src="src/assets/TotalNetIncome.jpg" align="center">
+![image2](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/TotalNetIncome.png)
+
 
 Now since in this case Elon Musk owns 100% of the Net Income, he also owns the savings amount.
-<img src="src/assets/AmountLeftOver.jpg" align="center">
+![image3](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/TotalNetIncome.png)
+
 <br>
 
 <!-- CONCEPT PROCESS -->
