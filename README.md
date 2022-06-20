@@ -3,13 +3,13 @@
 <!-- Repository Information & Links-->
 <br />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Tsebo200/paculator)
-![GitHub watchers](https://img.shields.io/github/watchers/Tsebo200/paculator)
-![GitHub language count](https://img.shields.io/github/languages/count/Tsebo200/paculator)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Tsebo200/paculator)
-![Github Language](https://img.shields.io/github/languages/top/Tsebo200/paculator)
-![Github Downloads](https://img.shields.io/github/downloads/Tsebo200/paculator/total)
-<!-- ![Github node Version](https://img.shields.io/node/v/paculator) -->
+![GitHub repo size](https://img.shields.io/github/repo-size/Tsebo200/Paculator)
+![GitHub watchers](https://img.shields.io/github/watchers/Tsebo200/Paculator)
+![GitHub language count](https://img.shields.io/github/languages/count/Tsebo200/Paculator)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Tsebo200/Paculator)
+![Github Language](https://img.shields.io/github/languages/top/Tsebo200/Paculator)
+![Github Downloads](https://img.shields.io/github/downloads/Tsebo200/Paculator/total)
+<!-- ![Github node Version](https://img.shields.io/node/v/Paculator) -->
 
 
 <!-- HEADER SECTION -->
@@ -20,7 +20,7 @@
 </br>
 <p align="center">
 
-  <a href="https://github.com/Tsebo200/paculator">
+  <a href="https://github.com/Tsebo200/Paculator">
     <img src="src/assets/Logo.svg" align="center" alt="../src/Assets/Logo\ 2.png" width="140" height="140">
   </a>
   
@@ -33,9 +33,9 @@
    <br />
    <a href="https://drive.google.com/file/d/1BT_I1xlJTMef2u1XfV93AzrsM9vlIC_y/view?usp=sharing">View Demo</a>
     ·
-    <a href="https://github.com/Tsebo200/paculator/issues">Report Bug</a>
+    <a href="https://github.com/Tsebo200/Paculator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Tsebo200/paculator/issues">Request Feature</a>
+    <a href="https://github.com/Tsebo200/Paculator/issues">Request Feature</a>
 </p>
 <!-- TABLE OF CONTENTS -->
 
@@ -94,12 +94,12 @@ Ensure that you have the latest version of [NPM](https://www.npmjs.com/) install
 Here are a couple of ways to clone this repo:
 
 1. GitHub Desktop </br>
-Enter `https://github.com/Tsebo200/paculator.git` into the URL field and press the `Clone` button.
+Enter `https://github.com/Tsebo200/Paculator.git` into the URL field and press the `Clone` button.
 
 2. Clone Repository </br>
 Run the following in the command-line to clone the project:
    ```sh
-   git clone https://github.com/Tsebo200/paculator.git
+   git clone https://github.com/Tsebo200/Paculator.git
    ```
     Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
@@ -116,17 +116,14 @@ Run the following in the command-line to install all the required dependencies:
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 ### Feature 
 Once this button is clicked tax will be calculated and subtracted from your earnings on top of that your tax bracket will be displayed under your name in the income after tax container.
-![image1](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/ButtonImg.png)
 <img src="src/assets/MockOne.jpg" align="center">
 
 ### Functionality 
 This functionality shows the percentage of the contributed amount in the household. The more you have contributed the higher the percent you own of the Net Income. 
-![image2](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/TotalNetIncome.png)
 <img src="src/assets/TotalNetIncome.jpg" align="center">
 
 Now since in this case Elon Musk owns 100% of the Net Income, he also owns the savings amount.
-![image3](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/TotalNetIncome.png)
-<img src="src/assets/TotalNetIncome.jpg" align="center">
+<img src="src/assets/AmountLeftOver.jpg" align="center">
 <br>
 
 <!-- CONCEPT PROCESS -->
@@ -139,37 +136,29 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Ideation
 This was my main look and feel. As I wanted to utilise the skeuomorphic design.
-![image4](https://raw.githubusercontent.com/Tsebo200/paculator/main/src/Assets/ReadMe/FeatureOne.jpg)
 <img src="src/assets/SceumorphicUI.jpeg" align="center">
 <br>
 
 ### Wireframes
 This is my first phase
-![image5](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/WireOne.jpg)
 <img src="src/assets/WireOne.jpg" align="center"><br>
 
-![image6](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/WireFour.jpg)
 <img src="src/assets/WireFour.jpg" align="center"><br>
 
-![image7](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/WireThree.jpg)
 <img src="src/assets/WireThree.jpg" align="center"><br>
 
-![image8](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/WireTwo.jpg)
 <img src="src/assets/WireTwo.jpg" align="center">
 
 ### Custom UI
 This is the active state of my button
-![image9](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/Sufferbtn.png)
 <img src="src/assets/Sufferbtn.png" align="center">
 <br>
 
 This is the hover state of my button
-![image10](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/Sufferbtnhover.png)
 <img src="src/assets/Sufferbtnhover.png" align="center">
 <br>
 
 This is the skeuomorphic design on one of my component containers
-![image11](https://raw.githubusercontent.com/Tsebo200/paculator/src/Assets/AmountLeftUI.png)
 <img src="src/assets/AmountLeftUI.png" align="center">
 
 <!-- DEVELOPMENT PROCESS -->
@@ -247,7 +236,7 @@ To see a run through of the application, click below:
 [View Demonstration](https://drive.google.com/file/d/1gY-Q5ua-iswJ4MdF9xmGJ-9F9rR-bsMO/view?usp=sharing)
 
 
-See the [open issues](https://github.com/Tsebo200/paculator/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Tsebo200/Paculator/issues) for a list of proposed features (and known issues).
 
 <!-- AUTHORS -->
 ## Authors
