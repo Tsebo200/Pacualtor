@@ -114,66 +114,70 @@ Run the following in the command-line to install all the required dependencies:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
+### Feature 
+Once this button is clicked tax will be calculated and subtracted from your earnings on top of that your tax bracket will be displayed under your name in the income after tax container.
 ![image1](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/ButtonImg.png)
 <img src="src/assets/MockOne.jpg" align="center">
 
-### All The Latest Anime Data! 
+### Functionality 
+This functionality shows the percentage of the contributed amount in the household. The more you have contributed the higher the percent you own of the Net Income. 
+![image2](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/TotalNetIncome.png)
+<img src="src/assets/TotalNetIncome.jpg" align="center">
 
-Using the Jikan API, I have collected and collated all the most relevant Anime data into once seemless react experience!
-
-![image2](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockTwo.png)
-<img src="src/assets/MockTwo.jpg" align="center">
-### Feature 1
-
-This dropdown dynamically loads the data of the selected anime in the charts.
-
-![image3](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockThree.png)
-<img src="src/assets/MockThree.jpg" align="center">
-### Feature 2
-
-The functionality of the information pills and anime poster updates randomly every session. 
-
-![image4](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockFour.png)
-<img src="src/assets/MockFour.jpg" align="center">
-
+Now since in this case Elon Musk owns 100% of the Net Income, he also owns the savings amount.
+![image3](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/TotalNetIncome.png)
+<img src="src/assets/TotalNetIncome.jpg" align="center">
+<br>
 
 <!-- CONCEPT PROCESS -->
 <!-- Briefly explain your concept ideation process -->
 <!-- here you will add things like wireframing, data structure planning, anything that shows your process. You need to include images-->
 ## Concept Process
 
-The `Conceptual Process` is the set of actions, activities and research that was done when starting this project. As part of my conceptual process I have sketched wireframes in Figma, I looked at Pinterest for inspiration. I planned out the data structure for my project in a word processor.
+The `Conceptual Process` is the set of actions, activities and research that was done when starting this project. As part of my conceptual process I have sketched wireframes in Figma, I looked at Pinterest for inspiration. I planned out my functionality by doing unit tests.
+<br>
 
 ### Ideation
-
-![image5](https://raw.githubusercontent.com/Tsebo200/paculate/main/src/Assets/ReadMe/FeatureOne.jpg)
+This was my main look and feel. As I wanted to utilise the skeuomorphic design.
+![image4](https://raw.githubusercontent.com/Tsebo200/paculate/main/src/Assets/ReadMe/FeatureOne.jpg)
+<img src="src/assets/SceumorphicUI.jpeg" align="center">
 <br>
-![image6][image6]
 
 ### Wireframes
-
-![image7](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireOne.jpg)
+This is my first phase
+![image5](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireOne.jpg)
 <img src="src/assets/WireOne.jpg" align="center"><br>
 
-![image8](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireFour.jpg)
+![image6](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireFour.jpg)
 <img src="src/assets/WireFour.jpg" align="center"><br>
 
 ![image7](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireThree.jpg)
 <img src="src/assets/WireThree.jpg" align="center"><br>
 
-![image7](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireTwo.jpg)
+![image8](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/WireTwo.jpg)
 <img src="src/assets/WireTwo.jpg" align="center">
 
 ### Custom UI
+This is the active state of my button
+![image9](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/Sufferbtn.png)
+<img src="src/assets/Sufferbtn.png" align="center">
+<br>
 
-![image8](https://raw.githubusercontent.com/Tsebo200/paculate/tree/main/src/Assets/ReadMe/Custom\UI.jpg)
+This is the hover state of my button
+![image10](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/Sufferbtnhover.png)
+<img src="src/assets/Sufferbtnhover.png" align="center">
+<br>
+
+This is the skeuomorphic design on one of my component containers
+![image11](https://raw.githubusercontent.com/Tsebo200/paculate/src/Assets/AmountLeftUI.png)
+<img src="src/assets/AmountLeftUI.png" align="center">
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
 
 The `Development Process` is the technical implementations and functionality done in the frontend and backend of the application. 
-In my frontend I implemented a Google Font called Nunito, a box shadow on my info pills (in Home Page) as well as my graph containers (in the comparison page), I added Hover States for my info pills, my navigational buttons and my logo.
-In my backend I utilised React js including the react hooks such as useState, useRef and useEffect. I used the useEffect to retrieve all the anime when the page renders, useRef was used to store a variable (the selectedAnime) and the useState was used to change the anime name when it was selected in the dropdown. I utilised axios to make an HTTP request for my API (this allows me to fetch data from the API easily). I implemented charts js to create dynamic charts.
+In my frontend I implemented a Google Font called Inter, a box shadow on different sections (content-containers), I added Hover States for my buttons.
+<br>In my backend I utilised React js with Vanilla JavaScript whilst testing my functions all in RTL(React Testing Library).
 
 ### Implementation Process
 <!-- stipulate all of the functionality you included in the project -->
@@ -186,44 +190,62 @@ In my backend I utilised React js including the react hooks such as useState, us
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
-* I enjoyed this brief as it forces you to be  creative in presenting your data with charts js. I learnt about React and React hooks. 
-* I mostly enjoyed the API implementation with Charts js, I found it satisfying when the data was loading through the charts.
+* I enjoyed this brief as there was room to explore and create something you really wanted in terms of UI/UX. 
+* I mostly enjoyed designing and developing the front-end.
 
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-* When the anime shows the an anime movie in the home page, the API does not have information about the year and the season it was released (this leaving the last two info pills empty), thus, I would make an if statement that removes the last two pills if an anime movie loads. 
+* It took me a while to realise this, but I was supposed to add a return after a const variable in order for the information to be passed over to the next const. I spend around 2 - 3 hours debugging this Nan response.
 
 
 #### Above And Beyond
 
 What aspects of this final build contribute to the `Above And Beyond` Component of your brief?
 <!-- what did you learn outside of the classroom and implement into your project-->
-* Debugging
-* Debugging is the process in which a developer fixes the bug (issue) that is in the code in order to make the website/application work as intended.
-* I installed a plugin called React Developer Tool, it adds React code in my console from the Browser Router to the components on that page.
+* Refactoring
+* I learnt how to add more than one const variable inside of an Onclick event, now I can even apply this to other events such as onChange and onHover etc.
+<br>
+
+* Front End Design Exploration
+* I learnt about a design trend named skeuomorphism and I was able to apply it to my front-end.
 
 ### Future Implementation
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-* I should have been able to push the data from my API into the line graph, thus I will find a way to do so.
-* I will work better at my frontend to make it more pleasing.
+* I will learn more about RTL in order to write more complex Tests.
+
 
 <!-- MOCKUPS -->
 ## Final Outcome
 
 ### Mockups
 
-![image1](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockOne.png)
-<img src="src/assets/MockOne.jpg" align="center">
+![image12](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockOne.png)
+<img src="src/assets/MockOne.png" align="center">
 <br>
 
+![image13](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockTwo.png)
+<img src="src/assets/MockTwo.png" align="center">
+<br>
+
+![image13](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockThree.png)
+<img src="src/assets/MockThree.png" align="center">
+<br>
+
+![image14](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockFour.png)
+<img src="src/assets/MockFour.png" align="center">
+<br>
+
+![image15](https://github.com/Tsebo200/Pacualtor/blob/main/src/assets/MockFive.png)
+<img src="src/assets/MockFive.png" align="center">
+<br>
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
 
 To see a run through of the application, click below:
 
-[View Demonstration](https://drive.google.com/file/d/1eUNqAr9TJ-ScsZEJzURRuIjhyxq4sL8S/view?usp=sharing)
+[View Demonstration](https://drive.google.com/file/d/1gY-Q5ua-iswJ4MdF9xmGJ-9F9rR-bsMO/view?usp=sharing)
 
 
 See the [open issues](https://github.com/Tsebo200/paculate/issues) for a list of proposed features (and known issues).
