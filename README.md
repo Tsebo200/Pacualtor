@@ -3,8 +3,8 @@
 <!-- Repository Information & Links-->
 <br />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Tsebo200/Paculator)
-![GitHub watchers](https://img.shields.io/github/watchers/Tsebo200/Paculator)
+![GitHub repo size](https://img.shields.io/github/repo-size/Tsebo200/paculator)
+![GitHub watchers](https://img.shields.io/github/watchers/Tsebo200/paculator)
 ![GitHub language count](https://img.shields.io/github/languages/count/Tsebo200/Paculator)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Tsebo200/Paculator)
 ![Github Language](https://img.shields.io/github/languages/top/Tsebo200/Paculator)
